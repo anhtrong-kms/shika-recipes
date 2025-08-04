@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shika - Coffee N Soul</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER LOGO & SLOGAN -->
+  <header class="main-header">
+    <img src="images/logo.png" alt="Shika Logo" class="logo">
+    <h1 class="brand-name">Shika</h1>
+    <p class="slogan">Coffee N Soul</p>
+  </header>
+
+  <!-- SEARCH BAR -->
+  <section class="search-section">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="search" placeholder="Tìm món pha chế...">
+    </div>
+  </section>
+
+  <!-- CATEGORY FILTERS -->
+  <div class="filter-container">
+    <button class="filter-btn active" data-category="all">Tất cả</button>
+    <button class="filter-btn" data-category="Traditional Coffee">☕ Traditional Coffee</button>
+    <button class="filter-btn" data-category="Matcha">🍵 Matcha</button>
+    <button class="filter-btn" data-category="Shika Coffee">⭐ Shika Coffee</button>
+    <button class="filter-btn" data-category="Iced Tea">🍹 Iced Tea</button>
+    <button class="filter-btn" data-category="Milk Tea">🥛 Milk Tea</button>
+    <button class="filter-btn" data-category="Non-Caffein">🍓 Non-Caffein</button>
+    <button class="filter-btn" data-filter="no-recipe">📋 Chưa có công thức</button>
+  </div>
+
+  <!-- MENU GRID -->
+  <main>
+    <section id="menu-section" class="menu-section"></section>
+  </main>
+
+<!-- PANEL CÔNG THỨC -->
+<div id="recipe-panel" class="recipe-panel glass">
+  <div class="panel-header glass">
+    <button id="close-panel">✕</button>
+    <h2 id="panel-title"></h2>
+    <p id="panel-size"></p>
+  </div>
+  <div class="panel-img">
+    <img id="panel-img-src" alt="">
+  </div>
+  <div class="panel-content glass">
+    <h3>Nguyên liệu</h3>
+    <ul id="panel-ingredients"></ul>
+    <h3>Công thức</h3>
+    <ol id="panel-steps"></ol>
+  </div>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
