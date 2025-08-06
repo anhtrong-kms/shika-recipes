@@ -278,3 +278,47 @@ body {
   background: rgba(0,0,0,0.2);
   border-radius: 3px;
 }
+
+/* Filter buttons */
+.filter-container {
+  text-align: center;
+  margin: 20px 0;
+}
+.filter-btn {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.filter-btn.active, .filter-btn:hover {
+  background: #d4af37;
+  color: white;
+}
+/* Search bar */
+.search-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+}
+.search-icon {
+  margin-right: 10px;
+}
+.search-box input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1rem;
+}
