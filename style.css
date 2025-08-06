@@ -47,7 +47,17 @@ body {
 #search:focus {
   border-color: #d4af37;
 }
-
+#search-ingredient {
+  width: 100%;
+  padding: 12px 14px 12px 40px;
+  border-radius: 30px;
+  border: 2px solid #000;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+#search-ingredient:focus {
+  border-color: #d4af37;
+}
 .filter-container {
   text-align: center;
   margin-bottom: 20px;
@@ -279,6 +289,8 @@ body {
   border-radius: 3px;
 }
 
+
+
 /* Filter buttons */
 .filter-container {
   text-align: center;
@@ -296,29 +308,4 @@ body {
 .filter-btn.active, .filter-btn:hover {
   background: #d4af37;
   color: white;
-}
-/* Search bar */
-.search-section {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: 20px auto;
-  width: 90%;
-  max-width: 500px;
-}
-.search-box {
-  display: flex;
-  align-items: center;
-  padding: 8px 12px;
-}
-.search-icon {
-  margin-right: 10px;
-}
-.search-box input {
-  flex: 1;
-  padding: 8px;
-  border: none;
-  background: transparent;
-  outline: none;
-  font-size: 1rem;
 }
