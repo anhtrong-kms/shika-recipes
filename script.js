@@ -88,3 +88,20 @@ searchInput.addEventListener('input', function () {
   );
   renderMenu(filtered);
 });
+
+const searchIngredientInput = document.getElementById('search-ingredient');
+
+searchIngredientInput.addEventListener('input', function () {
+  const keyword = this.value.toLowerCase().trim();
+
+  if (!keyword) {
+    renderMenu(recipes); // Nếu không nhập gì thì hiện tất cả
+    return;
+  }
+
+  const filtered = recipes.filter(item =>
+    item.nguyenLieu.some(nl => nl.toLowerCase().includes(keyword))
+  );
+
+  renderMenu(filtered);
+});
