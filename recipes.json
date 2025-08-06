@@ -6,7 +6,7 @@
     "hinhAnh": "images/yakult-hoa.gif",
     "nguyenLieu": [
       "🍓 Mứt trái cây hỗn hợp Osterberg: 40ml",
-      "🍯 Nước Đường Shika: 25ml",
+      "🍯 Nước Đường Shika: 20ml",
       "🥤 Yakult: 1 hủ",
       "🌸 Hoa Đậu Biếc Shika: 150ml"
     ],
@@ -152,7 +152,7 @@
   "nguyenLieu": [
     "🍑 Trà Đào Shika: 180ml",
     "🍑 Mứt đào Berino: 30ml",
-    "🍯 Nước Đường Shika: 30ml",
+    "🍯 Nước Đường Shika: 20ml",
     "🧂 Milk Foam Muối Shika: 30ml",
     "🧊 Đá viên: vừa đủ"
   ],
@@ -414,7 +414,7 @@
   "hinhAnh": "images/tra-vai-hoa-dau-biec.png",
   "nguyenLieu": [
     "🍑 Mứt vải Osterberg: 40ml",
-    "🍯 Nước Đường Shika: 30ml",
+    "🍯 Nước Đường Shika: 20ml",
     "💧 Nước lọc: 50ml",
     "🌸 Hoa đậu biếc: 100ml"
   ],
@@ -446,33 +446,6 @@
     "nguyenLieu": [
       "🍹 Trà Thái Đỏ Shika: 150ml",
       "🥛 Sữa Shika: 100ml"
-    ],
-    "congThuc": ["Chưa có công thức"]
-  },
-  {
-    "tenMon": "Hoa hồng táo đỏ long nhãn",
-    "category": "Iced Tea",
-    "dungLuong": "350ml",
-    "hinhAnh": "images/hoa-hong-tao-do-long-nhan.png",
-    "nguyenLieu": [
-      "🌹 Mứt hoa hồng: 20g",
-      "🍎 Mứt táo đỏ long nhãn: 20ml",
-      "🍯 Nước Đường Shika: 20ml",
-      "🍵 Hồng Trà Shika: 100ml"
-    ],
-    "congThuc": ["Chưa có công thức"]
-  },
-  {
-    "tenMon": "Trà vải hoa hồng",
-    "category": "Iced Tea",
-    "dungLuong": "350ml",
-    "hinhAnh": "images/tra-vai-hoa-hong.png",
-    "nguyenLieu": [
-      "🍑 Mứt vải Osterberg: 20ml",
-      "🍵 Trà vải túi lọc Cozy: 1 túi",
-      "🍵 Cozy Icetea Vải: 1 gói",
-      "🌹 Syrup Hoa hồng Monin: 15ml",
-      "🌹 Mứt hoa hồng: 10g"
     ],
     "congThuc": ["Chưa có công thức"]
   },
