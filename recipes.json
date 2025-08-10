@@ -1,6 +1,7 @@
 [
   {
-    "tenMon": "Trà hoa đậu biếc Yakult",
+    "note": "Trà hoa đậu biếc Yakult",
+    "tenMon": "Blue Dream", 
     "category": "Iced Tea",
     "dungLuong": "500ml",
     "hinhAnh": "images/yakult-hoa.gif",
@@ -40,7 +41,8 @@
     ]
   },
   {
-    "tenMon": "Trà vải hoa hồng",
+    "tenMon": "Lychee N Rose",
+    "note": "Trà vải hoa hồng",
     "category": "Iced Tea",
     "dungLuong": "500ml",
     "hinhAnh": "images/tra-vai-hoa-hong.jpg",
@@ -107,7 +109,8 @@
     ]
   },
   {
-    "tenMon": "Trà Đào Lá Dứa Mật Ong",
+    "tenMon": "Peach Honey",
+    "note": "Trà Đào Lá Dứa Mật Ong",
     "category": "Iced Tea",
     "dungLuong": "500ml",
     "hinhAnh": "images/tra-dao-la-dua-mat-ong.png",
@@ -129,7 +132,7 @@
   },
   {
     "tenMon": "Cacao Creamy Cloudy",
-    "category": "Non-Caffein",
+    "category": "Cacao",
     "dungLuong": "350ml",
     "hinhAnh": "images/cacao-creamy-cloudy.png",
     "nguyenLieu": [
@@ -145,7 +148,7 @@
     ]
     },
     {
-  "tenMon": "Machi Đào",
+  "tenMon": "Machi Peach",
   "category": "Iced Tea",
   "dungLuong": "500ml",
   "hinhAnh": "images/machi-dao.png",
@@ -165,7 +168,8 @@
   ]
 },
 {
-  "tenMon": "Hoa hồng táo đỏ long nhãn",
+  "tenMon": "Rose N jujube longan",
+  "note":"Hoa hồng táo đỏ long nhãn",
   "category": "Iced Tea",
   "dungLuong": "500ml",
   "hinhAnh": "images/tra-tao-do-long-nhan.png",
@@ -187,7 +191,7 @@
   ]
 },
 {
-  "tenMon": "Berry Matcha",
+  "tenMon": "Matcha Berry",
   "category": "Matcha",
   "dungLuong": "350ml",
   "hinhAnh": "images/berry-matcha.png",
@@ -208,7 +212,7 @@
   ]
 },
 {
-  "tenMon": "Coco Matcha",
+  "tenMon": "Matcha Coco",
   "category": "Matcha",
   "dungLuong": "350ml",
   "hinhAnh": "images/coco-matcha.png",
@@ -231,7 +235,7 @@
   ]
 },
 {
-  "tenMon": "Coco Cà phê",
+  "tenMon": "Coco Cafe",
   "category": "Shika Coffee",
   "dungLuong": "350ml",
   "hinhAnh": "images/coco-ca-phe.png",
@@ -265,7 +269,7 @@
 },
 {
   "tenMon": "Americano",
-  "category": "Traditional Coffee",
+  "category": "Shika Coffee",
   "dungLuong": "350ml",
   "hinhAnh": "images/americano.png",
   "nguyenLieu": [
@@ -277,7 +281,7 @@
 },
 {
   "tenMon": "Espresso",
-  "category": "Traditional Coffee",
+  "category": "Shika Coffee",
   "dungLuong": "350ml",
   "hinhAnh": "images/espresso.png",
   "nguyenLieu": [
@@ -365,7 +369,7 @@
   },
   {
     "tenMon": "Cà Phê Muối",
-    "category": "Shika Coffee",
+    "category": "Traditional Coffee",
     "dungLuong": "350ml",
     "hinhAnh": "images/ca-phe-muoi.png",
     "nguyenLieu": [
@@ -380,7 +384,7 @@
   },
   {
     "tenMon": "Cacao Muối",
-    "category": "Non-Caffein",
+    "category": "Cacao",
     "dungLuong": "350ml",
     "hinhAnh": "images/cacao-muoi.png",
     "nguyenLieu": [
@@ -408,7 +412,8 @@
     ]
   },
 {
-  "tenMon": "Trà vải hoa đậu biếc",
+  "tenMon": "Lychee Butterfly",
+  "note": "Trà vải hoa đậu biếc",
   "category": "Iced Tea",
   "dungLuong": "500ml",
   "hinhAnh": "images/tra-vai-hoa-dau-biec.png",
@@ -426,7 +431,7 @@
   ]
 },
 {
-    "tenMon": "Matcha Thái Đỏ",
+    "tenMon": "Green meets red",
     "category": "Matcha",
     "dungLuong": "350ml",
     "hinhAnh": "images/matcha-thai-do.png",
@@ -439,7 +444,7 @@
     "congThuc": ["Chưa có công thức"]
   },
   {
-    "tenMon": "Trà sữa thái đỏ",
+    "tenMon": "Red Thai Cha Milk Tea",
     "category": "Milk Tea",
     "dungLuong": "350ml",
     "hinhAnh": "images/tra-sua-thai-do.png",
@@ -450,7 +455,7 @@
     "congThuc": ["Chưa có công thức"]
   },
   {
-    "tenMon": "Sữa tươi táo đỏ long nhãn",
+    "tenMon": "Jujube Longan",
     "category": "Non-Caffein",
     "dungLuong": "350ml",
     "hinhAnh": "images/sua-tuoi-tao-do-long-nhan.png",
@@ -460,8 +465,88 @@
       "🍯 Nước Đường Shika: 10ml"
     ],
     "congThuc": ["Chưa có công thức"]
+  },
+  {
+    "tenMon": "Bana Coco Cafe",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "images/bana-coco-cafe.png",
+    "nguyenLieu": [
+      "chưa có"
+    ],
+    "congThuc": ["Chưa có công thức"]
+  },
+  {
+    "tenMon": "Mật ong cam vàng",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "images/mat-ong-cam-vang.png",
+    "nguyenLieu": [
+      "chưa có"
+    ],
+    "congThuc": ["Chưa có công thức"]
+  },
+  {
+    "tenMon": "Noon Mirage",
+    "note": "Xoài dứa nhiệt đới",
+    "category": "Iced Tea",
+    "dungLuong": "350ml",
+    "hinhAnh": "images/noon-mirage.png",
+    "nguyenLieu": [
+      "chưa có"
+    ],
+    "congThuc": ["Chưa có công thức"]
+  },
+  {
+    "tenMon": "Trà Sữa Gạo Rang",
+    "category": "Milk Tea",
+    "dungLuong": "350ml",
+    "hinhAnh": "images/tra-sua-gao-rang.png",
+    "nguyenLieu": [
+      "chưa có"
+    ],
+    "congThuc": ["Chưa có công thức"]
+  },
+  {
+    "tenMon": "Olong Milk Tea",
+    "category": "Milk Tea",
+    "dungLuong": "350ml",
+    "hinhAnh": "images/olong-milk-tea.png",
+    "nguyenLieu": [
+      "chưa có"
+    ],
+    "congThuc": ["Chưa có công thức"]
+  },
+  {
+    "tenMon": "Oreo Milk Tea",
+    "category": "Milk Tea",
+    "dungLuong": "350ml",
+    "hinhAnh": "images/tra-sua-oreo.png",
+    "nguyenLieu": [
+      "chưa có"
+    ],
+    "congThuc": ["Chưa có công thức"]
+  },
+  {
+    "tenMon": "Cacao Bana",
+    "category": "Cacao",
+    "dungLuong": "350ml",
+    "hinhAnh": "images/bana-choco.png",
+    "nguyenLieu": [
+      "chưa có"
+    ],
+    "congThuc": ["Chưa có công thức"]
+  },
+  {
+    "tenMon": "Coco Bana",
+    "category": "Non-Caffein",
+    "dungLuong": "350ml",
+    "hinhAnh": "images/coco-bana.png",
+    "nguyenLieu": [
+      "chưa có"
+    ],
+    "congThuc": ["Chưa có công thức"]
   }
-
 
 
 ]
