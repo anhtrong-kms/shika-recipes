@@ -397,20 +397,26 @@
     ]
   },
   {
-    "tenMon": "Coco Mango",
-    "category": "Non-Caffein",
-    "dungLuong": "350ml",
-    "hinhAnh": "images/coco-mango.png",
-    "nguyenLieu": [
-      "🥛 Sữa Shika: 70ml",
-      "🥥 Nước Dừa Cocoxim: 30ml",
-      "🥥 Nước cốt dừa Wonderfarm: 30ml",
-      "🥭 Sinh tố xoài Golden Farm: 50ml"
-    ],
-    "congThuc": [
-      "Chưa có công thức"
-    ]
-  },
+  "tenMon": "Coco Mango",
+  "category": "Non-caffein",
+  "dungLuong": "350ml",
+  "hinhAnh": "images/coco-mango.png",
+  "nguyenLieu": [
+    "🥭 Mứt xoài Berino: 1ml",
+    "🥭 Sinh tố xoài: 20ml",
+    "🍶 Whipping Cream Anchor: 20ml",
+    "🥥 Nước cốt dừa Wonderfarm: 30ml",
+    "🥛 Sữa Shika: 50ml",
+    "🧊 Đá viên: vừa đủ"
+  ],
+  "congThuc": [
+    "Cho mứt xoài xuống đáy ly 350ml.",
+    "Trong shaker, cho sinh tố xoài, whipping cream, nước cốt dừa Wonderfarm và sữa Shika, khuấy hoặc lắc đều.",
+    "Cho đá viên vào ly đã có mứt xoài.",
+    "Rót hỗn hợp vào ly.",
+    "Trang trí thêm lát xoài hoặc dừa sấy nếu muốn."
+  ]
+},
 {
   "tenMon": "Lychee Butterfly",
   "note": "Trà vải hoa đậu biếc",
@@ -431,29 +437,44 @@
   ]
 },
 {
-    "tenMon": "Green meets red",
-    "category": "Matcha",
-    "dungLuong": "350ml",
-    "hinhAnh": "images/matcha-thai-do.png",
-    "nguyenLieu": [
-      "🍵 Bột matcha Cozy: 1.5g",
-      "🍵 Bột matcha Uji: 1.5g",
-      "🍹 Trà Thái Đỏ Shika: 50ml",
-      "🥛 Sữa Shika: 100ml"
-    ],
-    "congThuc": ["Chưa có công thức"]
-  },
-  {
-    "tenMon": "Red Thai Cha Milk Tea",
-    "category": "Milk Tea",
-    "dungLuong": "350ml",
-    "hinhAnh": "images/tra-sua-thai-do.png",
-    "nguyenLieu": [
-      "🍹 Trà Thái Đỏ Shika: 150ml",
-      "🥛 Sữa Shika: 100ml"
-    ],
-    "congThuc": ["Chưa có công thức"]
-  },
+  "tenMon": "Green meets red",
+  "category": "Matcha",
+  "dungLuong": "350ml",
+  "hinhAnh": "images/matcha-thai-do.png",
+  "nguyenLieu": [
+    "🍵 Bột matcha Cozy: 1.5g",
+    "🍵 Bột matcha Uji: 1.5g",
+    "🍹 Trà Thái Đỏ Shika: 50ml",
+    "🥛 Sữa Shika: 100ml",
+    "🧊 Đá viên: vừa đủ"
+  ],
+  "congThuc": [
+    "Đánh tan bột matcha Cozy và bột matcha Uji với nước nóng (70–80°C) cho mịn và nổi bọt.",
+    "Cho sữa Shika và trà Thái Đỏ Shika vào shaker, khuấy đều.",
+    "Rót hỗn hợp sữa – trà Thái Đỏ vào ly 350ml.",
+    "Thêm đá viên vừa đủ.",
+    "Rót từ từ matcha đã đánh lên trên cùng để tạo lớp màu xanh nổi bật."
+  ]
+},
+{
+  "tenMon": "Red Thai Cha Milk Tea",
+  "category": "Milk Tea",
+  "dungLuong": "350ml",
+  "hinhAnh": "images/tra-sua-thai-do.png",
+  "nguyenLieu": [
+    "🍹 Trà Thái Đỏ Shika: 150ml",
+    "🥛 Sữa Shika: 100ml",
+    "🔮 Trân châu: vừa đủ",
+    "🧊 Đá viên: vừa đủ"
+  ],
+  "congThuc": [
+    "Cho trân châu vào đáy ly 350ml.",
+    "Thêm đá viên vừa đủ vào ly.",
+    "Rót sữa Shika vào ly.",
+    "Rót tiếp trà Thái Đỏ Shika lên trên.",
+    "Khuấy nhẹ trước khi thưởng thức."
+  ]
+},
   {
     "tenMon": "Jujube Longan",
     "category": "Non-Caffein",
@@ -487,16 +508,28 @@
     "congThuc": ["Chưa có công thức"]
   },
   {
-    "tenMon": "Noon Mirage",
-    "note": "Xoài dứa nhiệt đới",
-    "category": "Iced Tea",
-    "dungLuong": "350ml",
-    "hinhAnh": "images/noon-mirage.png",
-    "nguyenLieu": [
-      "chưa có"
-    ],
-    "congThuc": ["Chưa có công thức"]
-  },
+  "tenMon": "Noon Mirage",
+  "category": "Iced Tea",
+  "dungLuong": "350ml",
+  "hinhAnh": "images/noon-mirage.png",
+  "nguyenLieu": [
+    "🥭 Mứt xoài Berino: 20ml",
+    "🥭 Sinh tố xoài: 20ml",
+    "🍍 Mứt thơm Berino: 20ml",
+    "🍯 Nước đường Shika: 30ml",
+    "🍵 Trà ô long Shika: 100ml",
+    "🍋 Cốt chanh tươi: 5ml",
+    "🥥 Syrup dừa: 10ml",
+    "🧂 Muối hồng: 1g"
+  ],
+  "congThuc": [
+    "Pha 1/2 lượng muối hồng với một ít nước, 1/2 còn lại dùng để chà quanh miệng ly trang trí.",
+    "Cho mứt xoài, sinh tố xoài, mứt thơm, nước đường, syrup dừa và cốt chanh tươi vào shaker, khuấy hoặc lắc đều.",
+    "Cho đá viên vào ly đã trang trí muối hồng.",
+    "Rót hỗn hợp vừa pha vào ly.",
+    "Thêm trà ô long Shika, khuấy nhẹ và phục vụ."
+  ]
+},
   {
     "tenMon": "Trà Sữa Gạo Rang",
     "category": "Milk Tea",
@@ -528,25 +561,46 @@
     "congThuc": ["Chưa có công thức"]
   },
   {
-    "tenMon": "Cacao Bana",
-    "category": "Cacao",
-    "dungLuong": "350ml",
-    "hinhAnh": "images/bana-choco.png",
-    "nguyenLieu": [
-      "chưa có"
-    ],
-    "congThuc": ["Chưa có công thức"]
-  },
+  "tenMon": "Bana Choco",
+  "category": "Cacao",
+  "dungLuong": "350ml",
+  "hinhAnh": "images/bana-choco.png",
+  "nguyenLieu": [
+    "🍫 Cacao Shika: 30ml",
+    "🍌 Mứt chuối: 10g",
+    "🥛 Sữa đặc Ngôi Sao: 20ml",
+    "🥛 Sữa tươi Meadow kem: 70ml",
+    "🧊 Đá viên: vừa đủ"
+  ],
+  "congThuc": [
+    "Cho mứt chuối xuống đáy ly 350ml.",
+    "Trong shaker, cho cacao Shika, sữa đặc và sữa tươi Meadow kem, khuấy hoặc lắc đều.",
+    "Cho đá viên vào ly đã có mứt chuối.",
+    "Rót hỗn hợp cacao sữa vào ly.",
+    "Trang trí thêm lát chuối hoặc bột cacao nếu muốn."
+  ]
+},
   {
-    "tenMon": "Coco Bana",
-    "category": "Non-Caffein",
-    "dungLuong": "350ml",
-    "hinhAnh": "images/coco-bana.png",
-    "nguyenLieu": [
-      "chưa có"
-    ],
-    "congThuc": ["Chưa có công thức"]
-  }
+  "tenMon": "Coco Bana",
+  "category": "Non-caffein",
+  "dungLuong": "350ml",
+  "hinhAnh": "images/coco-bana.png",
+  "nguyenLieu": [
+    "🍌 Mứt chuối: 10g",
+    "🥛 Sữa đặc Ngôi Sao: 20ml",
+    "🥛 Sữa tươi Meadow kem: 70ml",
+    "🥥 Nước cốt dừa Wonderfarm: 30ml",
+    "🧊 Đá viên: vừa đủ"
+  ],
+  "congThuc": [
+    "Cho mứt chuối xuống đáy ly 350ml.",
+    "Trong shaker, cho sữa đặc, sữa tươi Meadow kem và nước cốt dừa Wonderfarm, khuấy hoặc lắc đều.",
+    "Cho đá viên vào ly đã có mứt chuối.",
+    "Rót hỗn hợp sữa dừa vào ly.",
+    "Trang trí thêm dừa sấy hoặc lát chuối nếu muốn."
+  ]
+}
+
 
 
 ]
