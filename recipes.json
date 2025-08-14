@@ -91,18 +91,16 @@
       "🍪 Bánh Oreo: 2 cái",
       "🍵 Bột matcha Cozy: 1.5g",
       "🍵 Bột matcha Uji: 1.5g",
-      "🥛 Sữa Shika: 70ml",
-      "🍯 Nước Đường Shika: 30ml",
-      "🥛 Sữa tươi Meadow kem: vừa đủ (nếu cần để đánh matcha)",
+      "🥛 Sữa Shika: 60ml",
+      "🥛 Sữa tươi Meadow kem: 40ML",
       "🍦 Kem cream Ice Hot: 30ml",
       "🥛 Sữa đặc Ngôi Sao: 10ml",
       "🧊 Đá viên: vừa đủ"
     ],
     "congThuc": [
-      "Cho bột matcha Cozy, bột matcha Uji, sữa đặc Ngôi Sao và kem cream Ice Hot vào tô hoặc ca đong.",
-      "Thêm một ít sữa tươi nếu cần để dễ đánh, sau đó đánh đều cho hỗn hợp matcha thật sệt và mịn.",
+      "Cho bột matcha Cozy, bột matcha Uji, sữa đặc Ngôi Sao và kem cream Ice Hot vào tô hoặc ca đong và đánh lên cho sệt mịn.",
       "Dằm 1 chiếc bánh Oreo cho nhuyễn và cho vào đáy ly phục vụ.",
-      "Cho sữa Shika và nước đường Shika vào ly, khuấy nhẹ để hòa quyện.",
+      "Cho sữa Shika và sữa tươi vào ly, khuấy nhẹ để hòa quyện.",
       "Thêm đá viên vào đầy ly.",
       "Rót hỗn hợp matcha đã đánh sệt lên trên lớp sữa và đá.",
       "Đặt 1 chiếc bánh Oreo nguyên lên trên bề mặt matcha để trang trí."
@@ -485,7 +483,11 @@
       "🥛 Sữa tươi Meadow kem: 100ml",
       "🍯 Nước Đường Shika: 10ml"
     ],
-    "congThuc": ["Chưa có công thức"]
+    "congThuc": [
+      "Cho mứt và nước đường vào ly",
+      "Thêm sữa tươi vào ly, khuấy đều.",
+      "Thêm đá viên vào đầy ly."
+  ]
   },
   {
     "tenMon": "Bana Coco Cafe",
@@ -503,9 +505,16 @@
     "dungLuong": "350ml",
     "hinhAnh": "images/mat-ong-cam-vang.png",
     "nguyenLieu": [
-      "chưa có"
+      "Cam tươi: 50ml",
+      "Mật ong: 20ml",
+      "Cold brew: 100ml"
     ],
-    "congThuc": ["Chưa có công thức"]
+    "congThuc": [
+      "Mật ong để dưới đáy ly",
+      "Cho nước cam vào ly, khuấy đều với mật ong.",
+      "Thêm đá viên vào đầy ly.",
+      "Rót cold brew vào ly, khuấy nhẹ để hòa quyện.",
+      "Trang trí với lát cam tươi trên miệng ly."]
   },
   {
   "tenMon": "Noon Mirage",

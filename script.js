@@ -1,107 +1,96 @@
-// Lấy element
-const menuSection = document.getElementById('menu-section');
-const recipePanel = document.getElementById('recipe-panel');
-const panelTitle = document.getElementById('panel-title');
-const panelSize = document.getElementById('panel-size');
-const panelImgSrc = document.getElementById('panel-img-src');
-const panelIngredients = document.getElementById('panel-ingredients');
-const panelSteps = document.getElementById('panel-steps');
-const closePanel = document.getElementById('close-panel');
-const searchInput = document.getElementById('search');
-const filterBtns = document.querySelectorAll('.filter-btn');
-
 let recipes = [];
 
-// Load dữ liệu menu
-fetch('recipes.json')
-  .then(res => res.json())
-  .then(data => {
-    recipes = data;
-    renderMenu(recipes);
-  });
+async function fetchData() {
+  const response = await fetch("recipes.json");
+  recipes = await response.json();
+  renderRecipes(recipes);
+}
+fetchData();
 
-// Render menu
-function renderMenu(list) {
-  menuSection.innerHTML = '';
-  list.forEach(item => {
-    const card = document.createElement('div');
-    card.classList.add('menu-card', 'glass');
+const menuSection = document.getElementById("menu-section");
+const searchInput = document.getElementById("search");
+const ingredientInput = document.getElementById("search-ingredient");
+
+function renderRecipes(list) {
+  menuSection.innerHTML = "";
+  list.forEach((item) => {
+    const card = document.createElement("div");
+    card.className = "menu-card";
     card.innerHTML = `
       <img src="${item.hinhAnh}" alt="${item.tenMon}">
       <h3>${item.tenMon}</h3>
     `;
-    card.addEventListener('click', () => openPanel(item));
+    card.addEventListener("click", () => showRecipe(item));
     menuSection.appendChild(card);
   });
 }
 
-// Mở panel công thức
-function openPanel(item) {
-  panelTitle.textContent = item.tenMon;
-  panelSize.textContent = `Dung tích: ${item.dungLuong}`;
-  panelImgSrc.src = item.hinhAnh;
-  panelIngredients.innerHTML = item.nguyenLieu.map(nl => `<li>${nl}</li>`).join('');
-  panelSteps.innerHTML = item.congThuc.map(ct => `<li>${ct}</li>`).join('');
-  recipePanel.classList.add('active');
+function showRecipe(item) {
+  document.getElementById("panel-title").textContent = item.tenMon;
+  document.getElementById("panel-size").textContent = item.dungLuong;
+  document.getElementById("panel-img-src").src = item.hinhAnh;
+
+  const ingredientsList = document.getElementById("panel-ingredients");
+  ingredientsList.innerHTML = "";
+  item.nguyenLieu.forEach((ing) => {
+    const li = document.createElement("li");
+    li.textContent = ing;
+    ingredientsList.appendChild(li);
+  });
+
+  const stepsList = document.getElementById("panel-steps");
+  stepsList.innerHTML = "";
+  item.congThuc.forEach((step) => {
+    const li = document.createElement("li");
+    li.textContent = step;
+    stepsList.appendChild(li);
+  });
+
+  openPanel();
 }
 
-// Đóng panel công thức
-closePanel.addEventListener('click', () => {
-  recipePanel.classList.remove('active');
+searchInput.addEventListener("input", () => {
+  const keyword = searchInput.value.toLowerCase();
+  const filtered = recipes.filter(r => r.tenMon.toLowerCase().includes(keyword));
+  renderRecipes(filtered);
 });
 
-// Lọc theo nhóm món (category filter)
-filterBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelector('.filter-btn.active')?.classList.remove('active');
-    btn.classList.add('active');
+ingredientInput.addEventListener("input", () => {
+  const keyword = ingredientInput.value.toLowerCase();
+  const filtered = recipes.filter(r => r.nguyenLieu.some(i => i.toLowerCase().includes(keyword)));
+  renderRecipes(filtered);
+});
 
-    const category = btn.getAttribute('data-category');
-    const specialFilter = btn.getAttribute('data-filter');
+document.querySelectorAll(".filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
 
-    // Nếu bấm "Chưa có công thức"
-    if (specialFilter === 'no-recipe') {
-      const filtered = recipes.filter(item => 
-        item.congThuc.length === 1 && item.congThuc[0] === "Chưa có công thức"
-      );
-      renderMenu(filtered);
-      return;
-    }
+    const cat = btn.dataset.category;
+    const noRecipe = btn.dataset.filter === "no-recipe";
 
-    // Nếu bấm "Tất cả"
-    if (category === 'all') {
-      renderMenu(recipes);
-    } 
-    // Nếu bấm nhóm món
-    else if (category) {
-      renderMenu(recipes.filter(item => item.category === category));
-    }
+    const filtered = recipes.filter(r =>
+      (cat === "all" || r.category === cat) &&
+      (!noRecipe || r.congThuc[0] === "Chưa có công thức")
+    );
+    renderRecipes(filtered);
   });
 });
 
+// === Modal logic ===
+const panel = document.getElementById("recipe-panel");
+const overlay = document.getElementById("modal-overlay");
+const closeBtn = document.getElementById("close-panel");
 
-// Tìm kiếm realtime
-searchInput.addEventListener('input', function () {
-  const keyword = this.value.toLowerCase();
-  const filtered = recipes.filter(item =>
-    item.tenMon.toLowerCase().includes(keyword)
-  );
-  renderMenu(filtered);
-});
+function openPanel() {
+  panel.classList.add("active");
+  overlay.classList.add("active");
+}
 
-const searchIngredientInput = document.getElementById('search-ingredient');
+function closePanel() {
+  panel.classList.remove("active");
+  overlay.classList.remove("active");
+}
 
-searchIngredientInput.addEventListener('input', function () {
-  const keyword = this.value.toLowerCase().trim();
-
-  if (!keyword) {
-    renderMenu(recipes); // Nếu không nhập gì thì hiện tất cả
-    return;
-  }
-
-  const filtered = recipes.filter(item =>
-    item.nguyenLieu.some(nl => nl.toLowerCase().includes(keyword))
-  );
-
-  renderMenu(filtered);
-});
+closeBtn.addEventListener("click", closePanel);
+overlay.addEventListener("click", closePanel);
