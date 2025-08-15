@@ -142,12 +142,16 @@
         "🍫 Bột cacao: một ít (trang trí)"
     ],
     "congThuc": [
-        "Chưa có công thức"
+        "Khuấy đều cacao Shika, sữa tươi Meadow kem và sữa đặc Ngôi Sao trong một bình lắc hoặc ca đong.",
+        "Cho đá viên vào ly 350ml",
+        "Rót hỗn hợp cacao đã khuấy vào ly.",
+        "Thêm Creamy Cloudy Shika vào ly, khuấy nhẹ để hòa quyện.",
+        "Rắc một ít bột cacao lên bề mặt để trang trí và tăng hương vị."
     ]
     },
     {
   "tenMon": "Machi Peach",
-  "category": "Iced Tea",
+  "category": "Milk Tea",
   "dungLuong": "500ml",
   "hinhAnh": "images/machi-dao.png",
   "nguyenLieu": [
@@ -233,7 +237,7 @@
   ]
 },
 {
-  "tenMon": "Coco Cafe",
+  "tenMon": "Coconut Cream Cafe",
   "category": "Shika Coffee",
   "dungLuong": "350ml",
   "hinhAnh": "images/coco-ca-phe.png",
@@ -245,7 +249,11 @@
     "🧊 Đá viên: vừa đủ"
   ],
   "congThuc": [
-    "Chưa có công thức"
+    "Cho sữa đặc Ngôi Sao, nước cốt dừa Wonderfarm và sữa Shika vào bình lắc, khuấy đều.",
+    "Rót hỗn hợp sữa dừa ra ly",
+    "Cho đá viên vào đầy ly.",
+    "Pha cà phê Arabica - H - Medium và rót lên trên lớp sữa dừa.",
+    "Khuấy nhẹ để hòa quyện hương vị."
   ]
 },
 {
@@ -255,14 +263,14 @@
   "hinhAnh": "images/creamy-cloudy.png",
   "nguyenLieu": [
     "☕ Cà phê Arabica - H - Medium: 20g",
-    "🥛 Whipping Cream Anchor: 80ml",
-    "🍦 Kem cream Ice Hot: 20ml",
-    "🍯 Nước Đường Shika: 20ml",
-    "🍋 Hương chanh Rayners: 2ml",
-    "🥛 Sữa đặc Ngôi Sao: 20ml"
+    "🥛 Sữa đặc Ngôi Sao: 20ml",
+    "☁️ Creamy Cloudy Shika: 122ml"
   ],
   "congThuc": [
-    "Chưa có công thức"
+    "Cho sữa đặc Ngôi Sao vào ly 350ml.",
+    "Pha cà phê Arabica - H - Medium và rót vào ly.",
+    "Thêm Creamy Cloudy Shika vào ly, khuấy nhẹ để hòa quyện.",
+    "Trang trí với bột cacao hoặc bột cà phê nếu muốn."
   ]
 },
 {
@@ -274,7 +282,11 @@
     "☕ Cà phê Arabica - H - Medium: 20g"
   ],
   "congThuc": [
-    "Chưa có công thức"
+    "Trích xuất cà phê Arabica - H - Medium bằng máy pha cà phê hoặc phin.",
+    "Rót 100ml nước lọc vào ly 350ml",
+    "Thêm cà phê đã pha vào ly nước lọc.",
+    "Khuấy nhẹ để hòa quyện.",
+    "Thêm đá viên nếu muốn uống lạnh."
   ]
 },
 {
@@ -286,22 +298,24 @@
     "☕ Cà phê Arabica - H - Medium: 20g"
   ],
   "congThuc": [
-    "Chưa có công thức"
+    "Trích xuất cà phê Arabica - H - Medium bằng máy pha cà phê hoặc phin.",
+    "Đính kèm 1 ly đường 30ml"
   ]
 },
 {
   "tenMon": "Soul",
   "category": "Shika Coffee",
-  "dungLuong": "350ml",
+  "dungLuong": "150ml",
   "hinhAnh": "images/soul.png",
   "nguyenLieu": [
     "☕ Cà phê Arabica - H - Medium: 20g",
-    "🍦 Kem cream Ice Hot: 0ml",
-    "🥛 Sữa đặc Ngôi Sao: 20ml",
-    "🥛 Whipping Cream Anchor: 20ml"
+    "🥛 Sữa đặc Ngôi Sao: 40ml",
+    "🥛 Whipping Cream Anchor: 40ml"
   ],
   "congThuc": [
-    "Chưa có công thức"
+    "Cho sữa đặc Ngôi Sao và whipping cream vào ly 150ml.",
+    "Pha cà phê Arabica - H - Medium và rót vào ly.",
+    "Khuấy nhẹ để hòa quyện hương vị."  
   ]
 },
 {
@@ -319,7 +333,11 @@
     "🍦 Kem cream Ice Hot: 5ml"
   ],
   "congThuc": [
-    "Chưa có công thức"
+    "Cho sữa đặc, lá dứa shika, syrup dứa Monin và kem cream Ice Hot vào bình lắc, khuấy đều.",
+    "Rót hỗn hợp sữa dừa vào ly 350ml.",
+    "Cho đá viên vào đầy ly.",
+    "Rót sữa tưoi Meadow kem vào ly.",
+    "Pha cà phê Arabica - H - Medium và Robusta - H - Medium, rót lên trên lớp sữa."
   ]
 },
   {
@@ -334,7 +352,10 @@
       "🥛 Sữa tươi Meadow kem: 70ml"
     ],
     "congThuc": [
-      "Chưa có công thức"
+      "Cho sữa đặc Ngôi Sao và sữa tươi Meadow kem vào ly 350ml.",
+      "Pha cà phê Arabica - H - Medium và Robusta - H - Medium, rót vào ly.",
+      "Khuấy nhẹ để hòa quyện hương vị.",
+      "Thêm đá viên nếu muốn uống lạnh."
     ]
   },
   {
@@ -348,7 +369,10 @@
       "🥛 Sữa đặc Ngôi Sao: 20ml"
     ],
     "congThuc": [
-      "Chưa có công thức"
+      "Cho sữa đặc Ngôi Sao vào ly 350ml.",
+      "Pha cà phê Arabica - H - Medium và Robusta - H - Medium, rót vào ly.",
+      "Khuấy nhẹ để hòa quyện hương vị.",
+      "Thêm đá viên nếu muốn uống lạnh."
     ]
   },
   {
@@ -362,7 +386,10 @@
       "🍬 Đường: 10g"
     ],
     "congThuc": [
-      "Chưa có công thức"
+      "Pha cà phê Arabica - H - Medium và Robusta - H - Medium bằng máy pha cà phê hoặc phin.",
+      "Rót cà phê vào ly 350ml.",
+      "Thêm đường vào ly, khuấy đều cho tan.",
+      "Thêm đá viên nếu muốn uống lạnh."
     ]
   },
   {
@@ -377,7 +404,11 @@
       "🧂 Milk Foam Muối Shika: 30ml"
     ],
     "congThuc": [
-      "Chưa có công thức"
+      "Cho sữa đặc Ngôi Sao vào ly 350ml.",
+      "Pha cà phê Arabica - H - Medium và Robusta - H - Medium, rót vào ly.",
+      "Khuấy nhẹ để hòa quyện hương vị.",
+      "Thêm milk foam muối Shika lên trên bề mặt cà phê.",
+      "Thêm đá viên nếu muốn uống lạnh."
     ]
   },
   {
@@ -391,12 +422,15 @@
       "🧂 Milk Foam Muối Shika: 30ml"
     ],
     "congThuc": [
-      "Chưa có công thức"
+      "Cho bột cacao LUAVE và sữa đặc Ngôi Sao vào ly 350ml, khuấy đều cho tan.",
+      "Thêm milk foam muối Shika lên trên bề mặt cacao.",
+      "Thêm đá viên nếu muốn uống lạnh.",
+      "Trang trí với bột cacao rắc lên trên milk foam."
     ]
   },
   {
   "tenMon": "Coco Mango",
-  "category": "Non-caffein",
+    "category": "Non-Caffein",
   "dungLuong": "350ml",
   "hinhAnh": "images/coco-mango.png",
   "nguyenLieu": [
@@ -495,9 +529,20 @@
     "dungLuong": "350ml",
     "hinhAnh": "images/bana-coco-cafe.png",
     "nguyenLieu": [
-      "chưa có"
+      "🍌 Mứt chuối: 10ml",
+      "🥥 Nước cốt dừa Wonderfarm: 30ml",
+      "☕ Cà phê Arabica - H - Medium: 20g",
+      "🥛 Sữa đặc Ngôi Sao: 20ml",
+      "🍶 Whipping Cream Anchor: 20ml",
+      "🥛 Sữa Shika: 50ml"
     ],
-    "congThuc": ["Chưa có công thức"]
+    "congThuc": [
+      "Cho mứt chuối xuống đáy ly 350ml và sữa đặc sau đó khuấy đều.",
+      "Cho whip, cốt dừa, sữa tươi khuấy đều trong shaker.",
+      "Cho đá viên vào ly đã có mứt chuối.",
+      "Rót hỗn hợp sữa dừa vào ly.",
+      "Pha cà phê Arabica - H - Medium và rót lên trên lớp sữa."
+    ]
   },
   {
     "tenMon": "Mật ong cam vàng",
@@ -545,9 +590,17 @@
     "dungLuong": "350ml",
     "hinhAnh": "images/tra-sua-gao-rang.png",
     "nguyenLieu": [
-      "chưa có"
+      "Trà gạo rang Shika: 150ml",
+      "🍯 Nước Đường Shika: 20ml",
+      "🧂 Milk Foam Muối Shika: 30ml"
     ],
-    "congThuc": ["Chưa có công thức"]
+    "congThuc": [
+      "Cho nước đường Shika vào ly 350ml, khuấy đều.",
+      "Thêm trà gạo rang Shika vào ly, khuấy nhẹ.",
+      "Cho đá viên vào đầy ly.",
+      "Thêm milk foam muối Shika lên trên bề mặt trà sữa.",
+      "Trang trí với hạt gạo rang hoặc bột trà gạo rang nếu muốn."
+    ]
   },
   {
     "tenMon": "Olong Milk Tea",
@@ -555,9 +608,17 @@
     "dungLuong": "350ml",
     "hinhAnh": "images/olong-milk-tea.png",
     "nguyenLieu": [
-      "chưa có"
+      "🍵 Trà ô long Shika: 150ml",
+      "🥛 Sữa Shika: 100ml",
+      "🔮 Trân châu: vừa đủ"
     ],
-    "congThuc": ["Chưa có công thức"]
+    "congThuc": [
+      "Cho trân châu vào đáy ly 350ml.",
+      "Thêm đá viên vừa đủ vào ly.",
+      "Rót sữa Shika vào ly thêm trà vào shaker khuấy đều",
+      "Rót hỗn hợp sữa – trà ô long vào ly.",
+      "Khuấy nhẹ trước khi thưởng thức."
+    ]
   },
   {
     "tenMon": "Oreo Milk Tea",
@@ -565,9 +626,18 @@
     "dungLuong": "350ml",
     "hinhAnh": "images/tra-sua-oreo.png",
     "nguyenLieu": [
-      "chưa có"
+      "🍪 Bánh Oreo: 2 cái",
+      "🥛 Sữa Shika: 100ml",
+      "🔮 Trân châu: vừa đủ",
+      "🍵 Trà ô long Shika: 150ml"
     ],
-    "congThuc": ["Chưa có công thức"]
+    "congThuc": [
+      "Dằm nhuyễn 1 chiếc bánh Oreo và cho vào đáy ly 350ml.",
+      "Cho trân châu vào ly.",
+      "Thêm đá viên vừa đủ vào ly.",
+      "Rót sữa Shika và Rót trà ô long Shika vào ly, khuấy nhẹ để hòa quyện.",
+      "Đặt 1 chiếc bánh Oreo nguyên lên trên bề mặt trà sữa để trang trí."
+    ]
   },
   {
   "tenMon": "Bana Choco",
@@ -591,14 +661,15 @@
 },
   {
   "tenMon": "Coco Bana",
-  "category": "Non-caffein",
+    "category": "Non-Caffein",
   "dungLuong": "350ml",
   "hinhAnh": "images/coco-bana.png",
   "nguyenLieu": [
     "🍌 Mứt chuối: 10g",
     "🥛 Sữa đặc Ngôi Sao: 20ml",
-    "🥛 Sữa tươi Meadow kem: 70ml",
     "🥥 Nước cốt dừa Wonderfarm: 30ml",
+    "🥛 Sữa Shika: 50ml",
+    "🍶 Whipping Cream Anchor: 20ml",
     "🧊 Đá viên: vừa đủ"
   ],
   "congThuc": [
@@ -608,8 +679,42 @@
     "Rót hỗn hợp sữa dừa vào ly.",
     "Trang trí thêm dừa sấy hoặc lát chuối nếu muốn."
   ]
+},
+
+{
+  "tenMon": "Coco Brew - Option 1 (Cold Brew - vị nhẹ nhàng hơn)",
+  "category": "Shika Coffee",
+  "dungLuong": "350ml",
+  "hinhAnh": "images/coco-bana.png",
+  "nguyenLieu": [
+    "🍯 Nước Đường Shika: 10ml",
+    "Cold brew: 100ml",
+    "🥥 Nước dừa: 100ml"
+  ],
+  "congThuc": [
+    "Cho nước đường Shika vào ly 350ml, khuấy đều.",
+    "Thêm nước dừa vào ly, khuấy nhẹ.",
+    "Cho đá viên vào đầy ly.",
+    "Rót cold brew vào ly, khuấy nhẹ để hòa quyện.",
+    "Trang trí với lát dừa hoặc hạt cà phê nếu muốn."
+  ]
+},
+{
+  "tenMon": "Coco Brew - Option 2 (Esspesso - vị đậm đà hơn)",
+  "category": "Shika Coffee",
+  "dungLuong": "350ml",
+  "hinhAnh": "images/coco-bana.png",
+  "nguyenLieu": [
+    "🍯 Nước Đường Shika: 10ml",
+    "Esspresso: 100ml",
+    "🥥 Nước dừa: 100ml"
+  ],
+  "congThuc": [
+    "Cho nước đường Shika vào ly 350ml, khuấy đều.",
+    "Thêm nước dừa vào ly, khuấy nhẹ.",
+    "Cho đá viên vào đầy ly.",
+    "Rót Esspresso vào ly, khuấy nhẹ để hòa quyện.",
+    "Trang trí với lát dừa hoặc hạt cà phê nếu muốn."
+  ]
 }
-
-
-
 ]
