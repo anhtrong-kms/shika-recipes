@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shika - Coffee N Soul</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -22,11 +22,11 @@
   <section class="search-section">
     <div class="search-box glass">
       <span class="search-icon">🔍</span>
-      <input type="text" id="search" placeholder="Tìm món pha chế...">
+      <input type="text" id="search" placeholder="Tìm món pha chế..." autocomplete="off">
     </div>
     <div class="search-box glass">
       <span class="search-icon">🥄</span>
-      <input type="text" id="search-ingredient" placeholder="Tìm theo nguyên liệu...">
+      <input type="text" id="search-ingredient" placeholder="Tìm theo nguyên liệu..." autocomplete="off">
     </div>
   </section>
 
@@ -49,21 +49,34 @@
   </main>
 
   <!-- MODAL OVERLAY -->
-  <div id="modal-overlay"></div>
+  <div id="modal-overlay" aria-hidden="true"></div>
 
   <!-- POPUP PANEL -->
-  <div id="recipe-panel" class="recipe-panel">
+  <div
+    id="recipe-panel"
+    class="recipe-panel"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="panel-title"
+    aria-describedby="panel-ingredients panel-steps"
+    tabindex="-1"
+  >
     <div class="panel-header">
-      <button id="close-panel">✕</button>
       <h2 id="panel-title"></h2>
-      <p id="panel-size"></p>
+      <div class="panel-actions">
+        <p id="panel-size" class="panel-size"></p>
+        <button id="close-panel" class="close-btn" aria-label="Đóng">✕</button>
+      </div>
     </div>
+
     <div class="panel-img">
       <img id="panel-img-src" alt="">
     </div>
+
     <div class="panel-content">
       <h3>Nguyên liệu</h3>
       <ul id="panel-ingredients"></ul>
+
       <h3>Công thức</h3>
       <ol id="panel-steps"></ol>
     </div>

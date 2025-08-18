@@ -1,5 +1,6 @@
 let recipes = [];
 
+/* ===== Data load ===== */
 async function fetchData() {
   const response = await fetch("recipes.json");
   recipes = await response.json();
@@ -7,10 +8,16 @@ async function fetchData() {
 }
 fetchData();
 
+/* ===== Elements ===== */
 const menuSection = document.getElementById("menu-section");
 const searchInput = document.getElementById("search");
 const ingredientInput = document.getElementById("search-ingredient");
 
+const panel = document.getElementById("recipe-panel");
+const overlay = document.getElementById("modal-overlay");
+const closeBtn = document.getElementById("close-panel");
+
+/* ===== Render cards ===== */
 function renderRecipes(list) {
   menuSection.innerHTML = "";
   list.forEach((item) => {
@@ -25,14 +32,17 @@ function renderRecipes(list) {
   });
 }
 
+/* ===== Show dialog content ===== */
 function showRecipe(item) {
-  document.getElementById("panel-title").textContent = item.tenMon;
-  document.getElementById("panel-size").textContent = item.dungLuong;
-  document.getElementById("panel-img-src").src = item.hinhAnh;
+  document.getElementById("panel-title").textContent = item.tenMon || "";
+  document.getElementById("panel-size").textContent = item.dungLuong || "";
+  const img = document.getElementById("panel-img-src");
+  img.src = item.hinhAnh || "";
+  img.alt = item.tenMon || "";
 
   const ingredientsList = document.getElementById("panel-ingredients");
   ingredientsList.innerHTML = "";
-  item.nguyenLieu.forEach((ing) => {
+  (item.nguyenLieu || []).forEach((ing) => {
     const li = document.createElement("li");
     li.textContent = ing;
     ingredientsList.appendChild(li);
@@ -40,7 +50,7 @@ function showRecipe(item) {
 
   const stepsList = document.getElementById("panel-steps");
   stepsList.innerHTML = "";
-  item.congThuc.forEach((step) => {
+  (item.congThuc || []).forEach((step) => {
     const li = document.createElement("li");
     li.textContent = step;
     stepsList.appendChild(li);
@@ -49,48 +59,64 @@ function showRecipe(item) {
   openPanel();
 }
 
+/* ===== Search & Filters ===== */
 searchInput.addEventListener("input", () => {
-  const keyword = searchInput.value.toLowerCase();
-  const filtered = recipes.filter(r => r.tenMon.toLowerCase().includes(keyword));
+  const keyword = searchInput.value.trim().toLowerCase();
+  const filtered = recipes.filter(r => (r.tenMon || "").toLowerCase().includes(keyword));
   renderRecipes(filtered);
 });
 
 ingredientInput.addEventListener("input", () => {
-  const keyword = ingredientInput.value.toLowerCase();
-  const filtered = recipes.filter(r => r.nguyenLieu.some(i => i.toLowerCase().includes(keyword)));
+  const keyword = ingredientInput.value.trim().toLowerCase();
+  const filtered = recipes.filter(r =>
+    (r.nguyenLieu || []).some(i => (i || "").toLowerCase().includes(keyword))
+  );
   renderRecipes(filtered);
 });
+
+/* Robust "no-recipe" check */
+function hasNoRecipe(r) {
+  if (!r.congThuc || r.congThuc.length === 0) return true;
+  return r.congThuc.some(step => (step || "").toLowerCase().includes("chưa có công thức"));
+}
 
 document.querySelectorAll(".filter-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
 
-    const cat = btn.dataset.category;
-    const noRecipe = btn.dataset.filter === "no-recipe";
+    const cat = btn.dataset.category || "all";
+    const isNoRecipe = btn.dataset.filter === "no-recipe";
 
     const filtered = recipes.filter(r =>
       (cat === "all" || r.category === cat) &&
-      (!noRecipe || r.congThuc[0] === "Chưa có công thức")
+      (!isNoRecipe || hasNoRecipe(r))
     );
     renderRecipes(filtered);
   });
 });
 
-// === Modal logic ===
-const panel = document.getElementById("recipe-panel");
-const overlay = document.getElementById("modal-overlay");
-const closeBtn = document.getElementById("close-panel");
-
+/* ===== Modal logic ===== */
 function openPanel() {
   panel.classList.add("active");
   overlay.classList.add("active");
+  overlay.setAttribute("aria-hidden", "false");
+  document.body.classList.add("modal-open");
+
+  // focus management (accessibility)
+  panel.focus();
 }
 
 function closePanel() {
   panel.classList.remove("active");
   overlay.classList.remove("active");
+  overlay.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("modal-open");
 }
 
+// Close events
 closeBtn.addEventListener("click", closePanel);
 overlay.addEventListener("click", closePanel);
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closePanel();
+});
