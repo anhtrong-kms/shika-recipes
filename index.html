@@ -40,12 +40,15 @@
     <button class="filter-btn" data-category="Milk Tea">🥛 Milk Tea</button>
     <button class="filter-btn" data-category="Non-Caffein">🍓 Non-Caffein</button>
     <button class="filter-btn" data-category="Cacao">🍸 Cacao</button>
-    <button class="filter-btn" data-category="all" data-filter="no-recipe">📋 Chưa có công thức</button>
+    <!-- ✨ Mới: chỉ hiển thị nhóm nguyên liệu thành phẩm khi bấm -->
+    <button class="filter-btn" data-category="Prepared">🧰 Nguyên liệu thành phẩm</button>
   </div>
 
   <!-- MENU GRID -->
   <main>
     <section id="menu-section" class="menu-section"></section>
+    <!-- ✨ List hiển thị riêng cho nhóm Nguyên liệu thành phẩm -->
+    <section id="prepared-list" class="prepared-list"></section>
   </main>
 
   <!-- MODAL OVERLAY -->
@@ -77,7 +80,8 @@
       <h3>Nguyên liệu</h3>
       <ul id="panel-ingredients"></ul>
 
-      <h3>Công thức</h3>
+      <!-- Phần Công thức sẽ tự ẩn nếu không có step -->
+      <h3 id="steps-title">Công thức</h3>
       <ol id="panel-steps"></ol>
     </div>
   </div>
