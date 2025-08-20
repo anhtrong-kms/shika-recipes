@@ -242,18 +242,16 @@
   "dungLuong": "350ml",
   "hinhAnh": "images/coco-ca-phe.png",
   "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 20g",
+    "☕ Cà phê Arabica - H - Medium: 18g",
     "🥥 Nước cốt dừa Wonderfarm: 30ml",
     "🥛 Sữa đặc Ngôi Sao: 30ml",
     "🥛 Sữa Shika: 70ml",
     "🧊 Đá viên: vừa đủ"
   ],
   "congThuc": [
-    "Cho sữa đặc Ngôi Sao, nước cốt dừa Wonderfarm và sữa Shika vào bình lắc, khuấy đều.",
-    "Rót hỗn hợp sữa dừa ra ly",
+    "Cho sữa đặc Ngôi Sao, nước cốt dừa Wonderfarm và sữa Shika vào ly, khuấy đều.",
     "Cho đá viên vào đầy ly.",
-    "Pha cà phê Arabica - H - Medium và rót lên trên lớp sữa dừa.",
-    "Khuấy nhẹ để hòa quyện hương vị."
+    "Pha cà phê Arabica - H - Medium và rót lên trên lớp sữa dừa."
   ]
 },
 {
@@ -262,15 +260,16 @@
   "dungLuong": "350ml",
   "hinhAnh": "images/creamy-cloudy.png",
   "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 20g",
+    "☕ Cà phê Arabica - H - Medium: 18g",
     "🥛 Sữa đặc Ngôi Sao: 20ml",
     "☁️ Creamy Cloudy Shika: 122ml"
   ],
   "congThuc": [
     "Cho sữa đặc Ngôi Sao vào ly 350ml.",
     "Pha cà phê Arabica - H - Medium và rót vào ly.",
-    "Thêm Creamy Cloudy Shika vào ly, khuấy nhẹ để hòa quyện.",
-    "Trang trí với bột cacao hoặc bột cà phê nếu muốn."
+    "Khuấy đều, sau đó cho đá vào ly",
+    "Thêm Creamy Cloudy Shika lên trên",
+    "Trang trí với bột cacao"
   ]
 },
 {
@@ -279,14 +278,13 @@
   "dungLuong": "350ml",
   "hinhAnh": "images/americano.png",
   "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 20g"
+    "☕ Cà phê Arabica - H - Medium: 18g"
   ],
   "congThuc": [
-    "Trích xuất cà phê Arabica - H - Medium bằng máy pha cà phê hoặc phin.",
     "Rót 100ml nước lọc vào ly 350ml",
-    "Thêm cà phê đã pha vào ly nước lọc.",
-    "Khuấy nhẹ để hòa quyện.",
-    "Thêm đá viên nếu muốn uống lạnh."
+    "Thêm đá viên vào ly nước lọc",
+    "Trích xuất cà phê Arabica - H - Medium bằng máy pha cà phê",
+    "Thêm cà phê đã pha vào ly nước lọc."
   ]
 },
 {
@@ -295,25 +293,25 @@
   "dungLuong": "350ml",
   "hinhAnh": "images/espresso.png",
   "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 20g"
+    "☕ Cà phê Arabica - H - Medium: 18g"
   ],
   "congThuc": [
     "Trích xuất cà phê Arabica - H - Medium bằng máy pha cà phê hoặc phin.",
-    "Đính kèm 1 ly đường 30ml"
+    "Đính kèm 1 tách đường 20ml"
   ]
 },
 {
   "tenMon": "Soul",
   "category": "Shika Coffee",
-  "dungLuong": "150ml",
+  "dungLuong": "170ml",
   "hinhAnh": "images/soul.png",
   "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 20g",
+    "☕ Cà phê Arabica - H - Medium: 18g",
     "🥛 Sữa đặc Ngôi Sao: 40ml",
     "🥛 Whipping Cream Anchor: 40ml"
   ],
   "congThuc": [
-    "Cho sữa đặc Ngôi Sao và whipping cream vào ly 150ml.",
+    "Cho sữa đặc Ngôi Sao và whipping cream vào ly 170ml.",
     "Pha cà phê Arabica - H - Medium và rót vào ly.",
     "Khuấy nhẹ để hòa quyện hương vị."  
   ]
@@ -324,8 +322,7 @@
   "dungLuong": "350ml",
   "hinhAnh": "images/pandan-fusion.png",
   "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 4g",
-    "☕ Cà phê Robusta - H - Medium: 16g",
+    "☕ Cà phê Arabica - H - Medium: 18g",
     "🥛 Sữa đặc Ngôi Sao: 30ml",
     "🥛 Sữa tươi Meadow kem: 70ml",
     "🌿 Lá Dứa Shika: 5ml",
@@ -347,29 +344,29 @@
     "hinhAnh": "images/bac-xiu.png",
     "nguyenLieu": [
       "☕ Cà phê Arabica - H - Medium: 4g",
-      "☕ Cà phê Robusta - H - Medium: 16g",
+      "☕ Cà phê Robusta - H - Medium: 14g",
       "🥛 Sữa đặc Ngôi Sao: 30ml",
       "🥛 Sữa tươi Meadow kem: 70ml"
     ],
     "congThuc": [
-      "Cho sữa đặc Ngôi Sao và sữa tươi Meadow kem vào ly 350ml.",
-      "Pha cà phê Arabica - H - Medium và Robusta - H - Medium, rót vào ly.",
+      "Cho sữa đặc Ngôi Sao và sữa tươi Meadow kem vào ly",
       "Khuấy nhẹ để hòa quyện hương vị.",
-      "Thêm đá viên nếu muốn uống lạnh."
+      "Thêm đá viên",
+      "Pha cà phê Arabica - H - Medium và Robusta - H - Medium, rót vào ly."
     ]
   },
   {
     "tenMon": "Nâu",
     "category": "Traditional Coffee",
-    "dungLuong": "350ml",
+    "dungLuong": "200ml",
     "hinhAnh": "images/coffee-nau.png",
     "nguyenLieu": [
       "☕ Cà phê Arabica - H - Medium: 4g",
-      "☕ Cà phê Robusta - H - Medium: 16g",
+      "☕ Cà phê Robusta - H - Medium: 14g",
       "🥛 Sữa đặc Ngôi Sao: 20ml"
     ],
     "congThuc": [
-      "Cho sữa đặc Ngôi Sao vào ly 350ml.",
+      "Cho sữa đặc Ngôi Sao vào ly 200ml.",
       "Pha cà phê Arabica - H - Medium và Robusta - H - Medium, rót vào ly.",
       "Khuấy nhẹ để hòa quyện hương vị.",
       "Thêm đá viên nếu muốn uống lạnh."
@@ -378,18 +375,20 @@
   {
     "tenMon": "Đen",
     "category": "Traditional Coffee",
-    "dungLuong": "350ml",
+    "dungLuong": "200ml",
     "hinhAnh": "images/coffee-den.png",
     "nguyenLieu": [
       "☕ Cà phê Arabica - H - Medium: 4g",
-      "☕ Cà phê Robusta - H - Medium: 16g",
-      "🍬 Đường: 10g"
+      "☕ Cà phê Robusta - H - Medium: 14g",
+      "🍬 Đường: 10ml",
+      "🍬 Tách đường: 10ml"
     ],
     "congThuc": [
       "Pha cà phê Arabica - H - Medium và Robusta - H - Medium bằng máy pha cà phê hoặc phin.",
-      "Rót cà phê vào ly 350ml.",
-      "Thêm đường vào ly, khuấy đều cho tan.",
-      "Thêm đá viên nếu muốn uống lạnh."
+      "Rót cà phê vào ly 200ml.",
+      "Thêm đường vào ly, khuấy đều.",
+      "Thêm đá viên vừa đủ.",
+      "Phục vụ kèm thêm 1 tách đường nhỏ 10ml để khách có thể điều chỉnh độ ngọt theo ý thích."
     ]
   },
   {
@@ -399,7 +398,7 @@
     "hinhAnh": "images/ca-phe-muoi.png",
     "nguyenLieu": [
       "☕ Cà phê Arabica - H - Medium: 4g",
-      "☕ Cà phê Robusta - H - Medium: 16g",
+      "☕ Cà phê Robusta - H - Medium: 14g",
       "🥛 Sữa đặc Ngôi Sao: 20ml",
       "🧂 Milk Foam Muối Shika: 30ml"
     ],
@@ -407,8 +406,8 @@
       "Cho sữa đặc Ngôi Sao vào ly 350ml.",
       "Pha cà phê Arabica - H - Medium và Robusta - H - Medium, rót vào ly.",
       "Khuấy nhẹ để hòa quyện hương vị.",
-      "Thêm milk foam muối Shika lên trên bề mặt cà phê.",
-      "Thêm đá viên nếu muốn uống lạnh."
+      "Thêm đá viên.",
+      "Thêm milk foam muối Shika lên trên bề mặt cà phê."
     ]
   },
   {
@@ -531,7 +530,7 @@
     "nguyenLieu": [
       "🍌 Mứt chuối: 10ml",
       "🥥 Nước cốt dừa Wonderfarm: 30ml",
-      "☕ Cà phê Arabica - H - Medium: 20g",
+      "☕ Cà phê Arabica - H - Medium: 18g",
       "🥛 Sữa đặc Ngôi Sao: 20ml",
       "🍶 Whipping Cream Anchor: 20ml",
       "🥛 Sữa Shika: 50ml"
@@ -700,7 +699,7 @@
   ]
 },
 {
-  "tenMon": "Coco Brew - Option 2 (Esspesso - vị đậm đà hơn)",
+  "tenMon": "Coco Brew - Option 2 (Espesso - vị đậm đà hơn)",
   "category": "Shika Coffee",
   "dungLuong": "350ml",
   "hinhAnh": "images/coco-bana.png",
