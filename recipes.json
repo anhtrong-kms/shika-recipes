@@ -34,10 +34,10 @@
     ],
     "congThuc": [
       "Cho bột matcha vào chén, thêm nước nóng và đánh đều cho tan hoàn toàn, nổi bọt mịn.",
-      "Cho sữa Shika và đá viên vào bình lắc, lắc mạnh 10–15 giây cho sữa lạnh và có bọt nhẹ.",
-      "Rót hỗn hợp sữa đã lắc ra ly dung tích 350ml, chừa khoảng 3–4cm ở miệng ly.",
-      "Rót matcha đã đánh lên trên lớp sữa để tạo hiệu ứng phân tầng.",
-      "Rắc một ít bột matcha lên bề mặt để trang trí và tăng hương thơm."
+      "Cho sữa Shika và đá viên vào ly",
+      "Chừa khoảng 3–4cm ở miệng ly.",
+      "Rót matcha đã đánh lên trên",
+      "Rắc một ít bột matcha lên bề mặt để trang trí"
     ]
   },
   {
@@ -55,10 +55,9 @@
       "🌹 Cánh hoa hồng: trang trí"
     ],
     "congThuc": [
-      "Cho mứt hoa hồng và siro hoa hồng vào ly, khuấy nhẹ để hòa quyện hương vị.",
       "Cho trà vải Combo Shika và mứt vải Osterberg vào bình lắc.",
-      "Thêm đá viên vào bình lắc, lắc mạnh 10–15 giây cho lạnh đều và có bọt nhẹ.",
-      "Rót hỗn hợp vừa lắc vào ly đã chuẩn bị sẵn.",
+      "Cho mứt hoa hồng và siro hoa hồng vào ly, khuấy nhẹ để hòa quyện hương vị.",
+      "Rót hỗn hợp trà vừa pha vào ly đã chuẩn bị sẵn.",
       "Rải cánh hoa hồng lên trên để trang trí và tạo hương thơm."
     ]
   },
@@ -121,10 +120,10 @@
       "🌹 Cánh hoa hồng: trang trí"
     ],
     "congThuc": [
-      "Cho mật ong và syrup lá dứa vào ly 500ml, khuấy nhẹ để hòa quyện.",
-      "Cho trà đào Combo Shika và mứt đào Berino vào bình lắc.",
-      "Thêm đá viên vào bình lắc và lắc mạnh 10–15 giây cho lạnh đều và tạo bọt nhẹ.",
-      "Rót hỗn hợp trà vừa lắc vào ly đã chuẩn bị sẵn.",
+      "Cho trà đào Combo Shika vào bình lắc.",
+      "Cho mứt đào Berino, mật ong và syrup lá dứa vào ly 500ml, khuấy nhẹ để hòa quyện.",
+      "Thêm đá viên vào đầy ly.",
+      "Rót hỗn hợp trà vừa pha vào ly đã chuẩn bị sẵn.",
       "Rải cánh hoa hồng lên trên để trang trí."
     ]
   },
@@ -142,6 +141,7 @@
         "🍫 Bột cacao: một ít (trang trí)"
     ],
     "congThuc": [
+        "Đánh Creamy Cloudy Shika cho đến khi bông mịn.",
         "Khuấy đều cacao Shika, sữa tươi Meadow kem và sữa đặc Ngôi Sao trong một bình lắc hoặc ca đong.",
         "Cho đá viên vào ly 350ml",
         "Rót hỗn hợp cacao đã khuấy vào ly.",
@@ -155,18 +155,19 @@
   "dungLuong": "500ml",
   "hinhAnh": "images/machi-dao.png",
   "nguyenLieu": [
-    "🍑 Trà Đào Shika: 180ml",
+    "🍑 Trà Đào túi lọc Cozy: 1 túi",
     "🍑 Mứt đào Berino: 30ml",
     "🍯 Nước Đường Shika: 20ml",
     "🧂 Milk Foam Muối Shika: 30ml",
     "🧊 Đá viên: vừa đủ"
   ],
   "congThuc": [
-    "Cho trà đào Shika, mứt đào Berino và nước đường Shika vào bình lắc.",
-    "Thêm đá viên và lắc mạnh 10–15 giây cho hỗn hợp lạnh đều và hòa quyện.",
-    "Rót hỗn hợp trà đào vừa lắc vào ly 500ml.",
-    "Cho milk foam muối Shika lên trên bề mặt ly, trải đều.",
-    "Trang trí thêm lát đào hoặc hoa hồng nếu muốn và thưởng thức."
+    "Pha trà túi lọc với 180ml nước nóng trong 5 phút và để nguội trong ly 200ml",
+    "Đánh foam muối shika",
+    "Cho mứt đào và nước đường Shika vào ly 500ml, khuấy đều.",
+    "Thêm đá viên đầy ly 500ml",
+    "Rót trà đào Shika vào ly",
+    "Cho milk foam muối Shika lên trên bề mặt ly, trải đều."
   ]
 },
 {
@@ -186,10 +187,9 @@
   ],
   "congThuc": [
     "Cho mứt hoa hồng, mứt táo đỏ long nhãn và nước đường Shika vào ly 500ml.",
-    "Rót hồng trà Shika và nước vào bình lắc hoặc ca đong, khuấy đều.",
-    "Đổ hỗn hợp trà vào ly đã có mứt và nước đường.",
+    "Rót hồng trà Shika và nước vào ly và khuấy đều.",
     "Thêm đá viên vào đầy ly để làm lạnh đồ uống.",
-    "Trang trí bằng cánh hoa hồng khô hoặc lát táo đỏ, long nhãn tươi nếu muốn."
+    "Trang trí với cánh hoa hồng khô"
   ]
 },
 {
@@ -205,13 +205,11 @@
     "🧊 Đá viên: vừa đủ"
   ],
   "congThuc": [
-    "Cho bột matcha Cozy và bột matcha Uji vào chén hoặc ca đong, thêm nước nóng (70–80°C) và đánh đều cho tan và nổi bọt mịn.",
-    "Cho sữa Shika vào ly 350ml.",
-    "Thêm mứt trái cây hỗn hợp Osterberg vào ly sữa và khuấy nhẹ để hòa quyện.",
+    "Cho bột matcha Cozy và bột matcha Uji vào chén, thêm nước nóng và đánh đều cho tan và nổi bọt mịn.",
+    "Thêm mứt trái cây hỗn hợp Osterberg vào ly",
     "Cho đá viên vào đầy ly.",
-    "Rót từ từ matcha đã đánh lên trên để tạo hiệu ứng phân tầng.",
-    "Trang trí thêm quả mọng hoặc lát cam nếu muốn."
-  ]
+    "Cho sữa Shika vào ly",
+    "Rót từ từ matcha đã đánh lên trên"  ]
 },
 {
   "tenMon": "Matcha Coco",
@@ -222,18 +220,18 @@
     "🥥 Nước dừa: 100ml",
     "🍵 Bột matcha Uji: 1.5g",
     "🍵 Bột matcha Cozy: 1.5g",
-    "🍦 Kem cream Ice Hot: 20ml",
+    "🍦 Whipping cream Anchor: 20ml",
     "🥛 Sữa đặc Ngôi Sao: 20ml",
     "🥥 Nước cốt dừa Wonderfarm: 20ml",
     "🧊 Đá viên: vừa đủ"
   ],
   "congThuc": [
-    "Cho bột matcha Uji và bột matcha Cozy vào chén hoặc ca đong, thêm nước nóng (70–80°C) và đánh đều cho tan và nổi bọt mịn.",
-    "Cho sữa đặc Ngôi Sao, kem cream Ice Hot và nước cốt dừa Wonderfarm vào bình lắc, khuấy đều.",
-    "Thêm nước dừa vào bình lắc và khuấy nhẹ.",
-    "Cho đá viên vào ly 350ml, rót hỗn hợp cốt dừa – nước dừa vào.",
-    "Rót từ từ matcha đã đánh lên trên để tạo hiệu ứng phân tầng.",
-    "Trang trí với bột matcha hoặc dừa nạo nếu muốn."
+    "Cho bột matcha Uji và bột matcha Cozy vào chén",
+    "Cho sữa đặc Ngôi Sao, Whipping Cream và nước cốt dừa Wonderfarm vào chén matcha đánh đều cho mịn.",
+    "Thêm nước dừa vào ly.",
+    "Cho đá viên vào ly 350ml.",
+    "Rót từ từ matcha đã đánh lên trên",
+    "Trang trí với dừa sấy khô."
   ]
 },
 {
@@ -313,11 +311,12 @@
   "congThuc": [
     "Cho sữa đặc Ngôi Sao và whipping cream vào ly 170ml.",
     "Pha cà phê Arabica - H - Medium và rót vào ly.",
-    "Khuấy nhẹ để hòa quyện hương vị."  
+    "Khuấy nhẹ để hòa quyện hương vị.",
+    "Thêm 1 ít đá viên viên"
   ]
 },
 {
-  "tenMon": "Pandan Fusion",
+  "tenMon": "Pandan Fusio - Cần test lại",
   "category": "Shika Coffee",
   "dungLuong": "350ml",
   "hinhAnh": "images/pandan-fusion.png",
@@ -421,6 +420,8 @@
       "🧂 Milk Foam Muối Shika: 30ml"
     ],
     "congThuc": [
+      "Đánh foam muối Shika",
+      
       "Cho bột cacao LUAVE và sữa đặc Ngôi Sao vào ly 350ml, khuấy đều cho tan.",
       "Thêm milk foam muối Shika lên trên bề mặt cacao.",
       "Thêm đá viên nếu muốn uống lạnh.",
@@ -433,7 +434,7 @@
   "dungLuong": "350ml",
   "hinhAnh": "images/coco-mango.png",
   "nguyenLieu": [
-    "🥭 Mứt xoài Berino: 1ml",
+    "🥭 Mứt xoài Berino: 10ml",
     "🥭 Sinh tố xoài: 20ml",
     "🍶 Whipping Cream Anchor: 20ml",
     "🥥 Nước cốt dừa Wonderfarm: 30ml",
@@ -441,11 +442,11 @@
     "🧊 Đá viên: vừa đủ"
   ],
   "congThuc": [
-    "Cho mứt xoài xuống đáy ly 350ml.",
-    "Trong shaker, cho sinh tố xoài, whipping cream, nước cốt dừa Wonderfarm và sữa Shika, khuấy hoặc lắc đều.",
+    "Cho mứt xoài berino và sinh tố xoài Golden Farm xuống đáy ly 350ml.",
+    "Trong shaker, whipping cream, nước cốt dừa Wonderfarm và sữa Shika, khuấy đều.",
     "Cho đá viên vào ly đã có mứt xoài.",
     "Rót hỗn hợp vào ly.",
-    "Trang trí thêm lát xoài hoặc dừa sấy nếu muốn."
+    "Trang trí thêm dừa sấy."
   ]
 },
 {
@@ -555,10 +556,10 @@
     ],
     "congThuc": [
       "Mật ong để dưới đáy ly",
-      "Cho nước cam vào ly, khuấy đều với mật ong.",
+      "Cho nước cam vào ly",
       "Thêm đá viên vào đầy ly.",
-      "Rót cold brew vào ly, khuấy nhẹ để hòa quyện.",
-      "Trang trí với lát cam tươi trên miệng ly."]
+      "Rót cold brew vào ly",
+      "Trang trí với lát cam khô trên miệng ly."]
   },
   {
   "tenMon": "Noon Mirage",
@@ -576,11 +577,10 @@
     "🧂 Muối hồng: 1g"
   ],
   "congThuc": [
-    "Pha 1/2 lượng muối hồng với một ít nước, 1/2 còn lại dùng để chà quanh miệng ly trang trí.",
-    "Cho mứt xoài, sinh tố xoài, mứt thơm, nước đường, syrup dừa và cốt chanh tươi vào shaker, khuấy hoặc lắc đều.",
+    "Chà nước cốt chanh quanh miệng ly, sau đó chà 0.5g muối hồng dùng để trang trí.",
+    "Cho mứt xoài, sinh tố xoài, mứt thơm, nước đường, syrup dừa, 0.5g muối hồng và cốt chanh tươi vào ly, khuấy đều.",
     "Cho đá viên vào ly đã trang trí muối hồng.",
-    "Rót hỗn hợp vừa pha vào ly.",
-    "Thêm trà ô long Shika, khuấy nhẹ và phục vụ."
+    "Thêm 100ml trà Olong shika + 80ml nước lọc, khuấy nhẹ và phục vụ."
   ]
 },
   {
@@ -594,7 +594,8 @@
       "🧂 Milk Foam Muối Shika: 30ml"
     ],
     "congThuc": [
-      "Cho nước đường Shika vào ly 350ml, khuấy đều.",
+      "Đánh foam muối Shika",
+      "Cho nước đường Shika vào ly 350ml",
       "Thêm trà gạo rang Shika vào ly, khuấy nhẹ.",
       "Cho đá viên vào đầy ly.",
       "Thêm milk foam muối Shika lên trên bề mặt trà sữa.",
@@ -614,8 +615,7 @@
     "congThuc": [
       "Cho trân châu vào đáy ly 350ml.",
       "Thêm đá viên vừa đủ vào ly.",
-      "Rót sữa Shika vào ly thêm trà vào shaker khuấy đều",
-      "Rót hỗn hợp sữa – trà ô long vào ly.",
+      "Rót sữa Shika vào ly, thêm trà vào ly",
       "Khuấy nhẹ trước khi thưởng thức."
     ]
   },
@@ -673,10 +673,10 @@
   ],
   "congThuc": [
     "Cho mứt chuối xuống đáy ly 350ml.",
-    "Trong shaker, cho sữa đặc, sữa tươi Meadow kem và nước cốt dừa Wonderfarm, khuấy hoặc lắc đều.",
+    "Trong shaker, cho whipping cream, cho sữa đặc và nước cốt dừa Wonderfarm, khuấy đều.",
     "Cho đá viên vào ly đã có mứt chuối.",
     "Rót hỗn hợp sữa dừa vào ly.",
-    "Trang trí thêm dừa sấy hoặc lát chuối nếu muốn."
+    "Trang trí thêm dừa sấy"
   ]
 },
 
@@ -691,11 +691,11 @@
     "🥥 Nước dừa: 100ml"
   ],
   "congThuc": [
-    "Cho nước đường Shika vào ly 350ml, khuấy đều.",
+    "Cho nước đường Shika vào ly 350ml",
     "Thêm nước dừa vào ly, khuấy nhẹ.",
     "Cho đá viên vào đầy ly.",
-    "Rót cold brew vào ly, khuấy nhẹ để hòa quyện.",
-    "Trang trí với lát dừa hoặc hạt cà phê nếu muốn."
+    "Rót cold brew vào ly",
+    "Trang trí với vụn dừa sấy khô"
   ]
 },
 {
@@ -709,11 +709,11 @@
     "🥥 Nước dừa: 100ml"
   ],
   "congThuc": [
-    "Cho nước đường Shika vào ly 350ml, khuấy đều.",
+    "Cho nước đường Shika vào ly 350ml",
     "Thêm nước dừa vào ly, khuấy nhẹ.",
     "Cho đá viên vào đầy ly.",
-    "Rót Esspresso vào ly, khuấy nhẹ để hòa quyện.",
-    "Trang trí với lát dừa hoặc hạt cà phê nếu muốn."
+    "Rót Espresso vào ly",
+    "Trang trí với vụn dừa sấy khô"
   ]
 },
 {
