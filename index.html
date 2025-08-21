@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Shika - Coffee N Soul</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-
   <!-- HEADER -->
-  <header class="main-header glass">
-    <img src="images/logo.png" alt="Shika Logo" class="logo">
+  <header class="main-header">
+    <img src="images/logo.png" alt="Shika Logo" class="logo" />
     <div class="brand">
       <h1 class="brand-name">Shika</h1>
       <p class="slogan">Coffee N Soul</p>
@@ -20,13 +19,13 @@
 
   <!-- SEARCH BAR -->
   <section class="search-section">
-    <div class="search-box glass">
+    <div class="search-box">
       <span class="search-icon">🔍</span>
-      <input type="text" id="search" placeholder="Tìm món pha chế..." autocomplete="off">
+      <input type="text" id="search" placeholder="Tìm món pha chế..." autocomplete="off" />
     </div>
-    <div class="search-box glass">
+    <div class="search-box">
       <span class="search-icon">🥄</span>
-      <input type="text" id="search-ingredient" placeholder="Tìm theo nguyên liệu..." autocomplete="off">
+      <input type="text" id="search-ingredient" placeholder="Tìm theo nguyên liệu..." autocomplete="off" />
     </div>
   </section>
 
@@ -40,21 +39,19 @@
     <button class="filter-btn" data-category="Milk Tea">🥛 Milk Tea</button>
     <button class="filter-btn" data-category="Non-Caffein">🍓 Non-Caffein</button>
     <button class="filter-btn" data-category="Cacao">🍸 Cacao</button>
-    <!-- ✨ Mới: chỉ hiển thị nhóm nguyên liệu thành phẩm khi bấm -->
-    <button class="filter-btn" data-category="Prepared">🧰 Nguyên liệu thành phẩm</button>
+    <!-- Nhóm nguyên liệu thành phẩm -->
+    <button class="filter-btn" data-category="Prepared">🆂 Nguyên liệu thành phẩm</button>
   </div>
 
   <!-- MENU GRID -->
   <main>
     <section id="menu-section" class="menu-section"></section>
-    <!-- ✨ List hiển thị riêng cho nhóm Nguyên liệu thành phẩm -->
-    <section id="prepared-list" class="prepared-list"></section>
   </main>
 
   <!-- MODAL OVERLAY -->
   <div id="modal-overlay" aria-hidden="true"></div>
 
-  <!-- POPUP PANEL -->
+  <!-- POPUP PANEL (LỚN) -->
   <div
     id="recipe-panel"
     class="recipe-panel"
@@ -73,16 +70,33 @@
     </div>
 
     <div class="panel-img">
-      <img id="panel-img-src" alt="">
+      <img id="panel-img-src" alt="" />
     </div>
 
     <div class="panel-content">
       <h3>Nguyên liệu</h3>
       <ul id="panel-ingredients"></ul>
 
-      <!-- Phần Công thức sẽ tự ẩn nếu không có step -->
+      <!-- Chips mở mini popup của "Nguyên liệu thành phẩm" liên quan -->
+      <div id="prepared-ref-list" class="prepared-refs"></div>
+
       <h3 id="steps-title">Công thức</h3>
       <ol id="panel-steps"></ol>
+      
+    </div>
+  </div>
+
+  <!-- MINI POPUP: chi tiết công thức của "Nguyên liệu thành phẩm" -->
+  <div id="prep-mini" class="prep-mini" role="dialog" aria-modal="true" aria-labelledby="prep-mini-title" aria-hidden="true">
+    <div class="prep-mini-header">
+      <h3 id="prep-mini-title"></h3>
+      <button id="prep-mini-close" class="prep-mini-close" aria-label="Đóng">✕</button>
+    </div>
+    <div class="prep-mini-body">
+      <h4>Thành phần</h4>
+      <ul id="prep-mini-ingredients"></ul>
+      <h4 id="prep-mini-steps-title">Công thức</h4>
+    <ol id="prep-mini-steps"></ol>
     </div>
   </div>
 

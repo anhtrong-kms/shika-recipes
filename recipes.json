@@ -421,7 +421,7 @@
     ],
     "congThuc": [
       "Đánh foam muối Shika",
-      
+
       "Cho bột cacao LUAVE và sữa đặc Ngôi Sao vào ly 350ml, khuấy đều cho tan.",
       "Thêm milk foam muối Shika lên trên bề mặt cacao.",
       "Thêm đá viên nếu muốn uống lạnh.",
@@ -726,9 +726,8 @@
       "Kem cream Ice hot: 50 ml"
     ],
     "congThuc": [
-      "Cho sữa đặc ngôi sao và kem cream Ice hot vào máy đánh sữa.",
-      "Đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn.",
-      "Để milk foam vào tủ lạnh nếu không sử dụng ngay, có thể bảo quản trong 1-2 ngày."
+      "Cho sữa đặc ngôi sao và kem cream Ice hot vào ly",
+      "Đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn."
     ]
   },
   {
@@ -742,9 +741,8 @@
       "Muối Hồng: 1 gram"
     ],
     "congThuc": [
-      "Cho sữa đặc ngôi sao, kem cream Ice hot và muối hồng vào máy đánh sữa.",
-      "Đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn.",
-      "Để milk foam muối Shika vào tủ lạnh nếu không sử dụng ngay, có thể bảo quản trong 1-2 ngày."
+      "Cho sữa đặc ngôi sao, kem cream Ice hot và muối hồng vào ly",
+      "Đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn."
     ]
   },
   {
@@ -753,14 +751,14 @@
     "dungLuong": "",
     "hinhAnh": "images/ingredient.png",
     "nguyenLieu": [
-      "Sữa đặc ngôi sao: 40 ml",
-      "Kem cream Ice hot: 10 ml",
-      "Sữa tươi Meadow kem: 50 ml"
+      "Sữa đặc ngôi sao: 400 ml",
+      "Kem cream Ice hot: 100 ml",
+      "Sữa tươi Meadow kem: 500 ml"
     ],
     "congThuc": [
-      "Cho sữa đặc ngôi sao, kem cream Ice hot và sữa tươi Meadow kem vào máy đánh sữa.",
-      "Đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn.",
-      "Để sữa Shika vào tủ lạnh nếu không sử dụng ngay, có thể bảo quản trong 1-2 ngày."
+      "Cho sữa đặc ngôi sao, kem cream Ice hot và sữa tươi Meadow kem vào ca 1.5L.",
+      "Dùng máy đánh để trộn đều hỗn hợp",
+      "Rót sữa Shika vào chai cất tủ lạnh"
     ]
   },
   {
@@ -791,9 +789,10 @@
       "Hương chanh Rayners: 2 ml"
     ],
     "congThuc": [
-      "Cho whipping cream, nước đường Shika và hương chanh Rayners vào máy đánh sữa.",
-      "Đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn.",
-      "Cho kem cream Ice hot vào máy đánh sữa, đánh tiếp cho đến khi hỗn hợp đồng nhất."
+      "Cho whipping cream vào ly, dùng máy đánh tầm 10 giây cho whipping lên bong bóng",
+      "Cho nước đường Shika và hương chanh Rayners vào",
+      "Đánh cho đến khi hỗn hợp bông mịn",
+      "Cho kem cream Ice hot vào, đánh tiếp tầm 10 giây cho hỗn hợp đồng nhất."
     ]
   },
   {
@@ -806,10 +805,10 @@
       "Nước: 1000 ml"
     ],
     "congThuc": [
-      "Cho trà Olong vào bình lọc hoặc túi lọc trà.",
-      "Đun sôi nước, sau đó để nguội xuống khoảng 90-95°C.",
+      "Cho trà Olong vào túi lọc trà.",
+      "Đun sôi nước",
       "Đổ nước nóng vào bình chứa trà, ngâm trong khoảng 15 phút.",
-      "Lọc lấy nước trà và để nguội hoặc sử dụng ngay."
+      "Lọc lấy nước trà"
     ]
   },
   {
@@ -822,8 +821,8 @@
       "Nước: 1000 ml"
     ],
     "congThuc": [
-      "Cho trà thái đỏ vào bình lọc hoặc túi lọc trà.",
-      "Đun sôi nước, sau đó để nguội xuống khoảng 90-95°C.",
+      "Cho trà thái đỏ vào túi lọc trà.",
+      "Đun sôi nước",
       "Đổ nước nóng vào bình chứa trà, ngâm trong khoảng 15 phút.",
       "Lọc lấy nước trà và để nguội hoặc sử dụng ngay."
     ]
@@ -839,8 +838,8 @@
       "Nước: 1000 ml"
     ],
     "congThuc": [
-      "Cho hoa đậu biếc và hoa hồng khô vào bình lọc hoặc túi lọc trà.",
-      "Đun sôi nước, sau đó để nguội xuống khoảng 90-95°C.",
+      "Cho hoa đậu biếc và hoa hồng khô túi lọc trà.",
+      "Đun sôi nước",
       "Đổ nước nóng vào bình chứa hoa, ngâm trong khoảng 15 phút.",
       "Lọc lấy nước hoa đậu biếc và để nguội hoặc sử dụng ngay."
     ]
@@ -855,7 +854,7 @@
       "Nước: 30 ml"
     ],
     "congThuc": [
-      "Cho bột cacao vào ly hoặc bình lắc.",
+      "Cho bột cacao vào ly",
       "Thêm nước nóng (khoảng 70-80°C) vào bột cacao.",
       "Khuấy đều cho đến khi bột cacao tan hoàn toàn và hỗn hợp mịn.",
       "Để nguội hoặc sử dụng ngay."
@@ -871,7 +870,23 @@
       "Nước: 180 ml"
     ],
     "congThuc": [
-      "Cho túi trà đào Cozy vào ly hoặc bình lắc.",
+      "Cho túi trà đào Cozy vào ly",
+      "Đun sôi nước, sau đó để nguội xuống khoảng 90-95°C.",
+      "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
+      "Lấy túi trà ra và khuấy đều trước khi thưởng thức."
+    ]
+  },
+  {
+    "tenMon": "Trà Vải Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Trà vải túi lọc Cozy: 1 túi",
+      "Nước: 180 ml"
+    ],
+    "congThuc": [
+      "Cho túi trà vải Cozy vào ly",
       "Đun sôi nước, sau đó để nguội xuống khoảng 90-95°C.",
       "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
       "Lấy túi trà ra và khuấy đều trước khi thưởng thức."
@@ -888,7 +903,7 @@
       "Nước: 180 ml"
     ],
     "congThuc": [
-      "Cho túi trà đào Cozy vào ly hoặc bình lắc.",
+      "Cho túi trà đào Cozy vào ly",
       "Đun sôi nước, sau đó để nguội xuống khoảng 90-95°C.",
       "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
       "Lấy túi trà ra, thêm Cozy Icetea Đào và khuấy đều trước khi thưởng thức."
@@ -905,7 +920,7 @@
       "Nước: 180 ml"
     ],
     "congThuc": [
-      "Cho túi trà vải Cozy vào ly hoặc bình lắc.",
+      "Cho túi trà vải Cozy vào ly",
       "Đun sôi nước, sau đó để nguội xuống khoảng 90-95°C.",
       "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
       "Lấy túi trà ra, thêm Cozy Icetea Vải và khuấy đều trước khi thưởng thức."
@@ -941,26 +956,10 @@
       "Nước: 100 ml"
     ],
     "congThuc": [
-      "Cho bột lá dứa vào ly hoặc bình lắc.",
+      "Cho bột lá dứa vào ly",
       "Thêm nước nóng (khoảng 70-80°C) vào bột lá dứa.",
       "Khuấy đều cho đến khi bột lá dứa tan hoàn toàn và hỗn hợp mịn.",
       "Để nguội hoặc sử dụng ngay."
-    ]
-  },
-  {
-    "tenMon": "Trà vải Shika",
-    "category": "Prepared",
-    "dungLuong": "",
-    "hinhAnh": "images/ingredient.png",
-    "nguyenLieu": [
-      "Trà vải túi lọc Cozy: 1 túi",
-      "Nước: 180 ml"
-    ],
-    "congThuc": [
-      "Cho túi trà vải Cozy vào ly hoặc bình lắc.",
-      "Đun sôi nước, sau đó để nguội xuống khoảng 90-95°C.",
-      "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
-      "Lấy túi trà ra và khuấy đều trước khi thưởng thức."
     ]
   }
 ]

@@ -52,6 +52,15 @@ body.modal-open { overflow: hidden; touch-action: none; }
 .menu-card img { width: 100%; height: 180px; object-fit: cover; display: block; }
 .menu-card h3 { text-align: center; padding: 10px; background: rgba(0,0,0,0.6); color: #fff; margin: 0; }
 
+/* ===== Prepared: card chỉ tên (không ảnh) ===== */
+.menu-card.prepared-card {
+  display: grid; place-items: center; height: 120px; padding: 8px 10px;
+}
+.menu-card.prepared-card h3 {
+  background: transparent; color: #000; margin: 0; padding: 0;
+  text-align: center; line-height: 1.3; font-size: 1rem;
+}
+
 /* ===== Modal overlay ===== */
 #modal-overlay {
   position: fixed; inset: 0; background: rgba(0,0,0,0.6);
@@ -59,7 +68,7 @@ body.modal-open { overflow: hidden; touch-action: none; }
 }
 #modal-overlay.active { opacity: 1; pointer-events: auto; }
 
-/* ===== Popup (Dialog) ===== */
+/* ===== Popup (Dialog lớn) ===== */
 .recipe-panel {
   position: fixed; top: 50%; left: 50%;
   width: clamp(320px, 92vw, 720px);
@@ -71,21 +80,20 @@ body.modal-open { overflow: hidden; touch-action: none; }
   backdrop-filter: blur(20px);
   border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.28);
   display: grid; grid-template-rows: auto auto 1fr;
-  pointer-events: none; /* avoid blocking when hidden */
+  pointer-events: none;
 }
 .recipe-panel.active { opacity: 1; transform: translate(-50%, -50%) scale(1); pointer-events: auto; }
 
-/* Full-screen cho màn hình nhỏ hoặc thấp (điện thoại, iPOS) */
+/* Full-screen cho màn hình nhỏ hoặc thấp */
 @media (max-width: 768px), (max-height: 640px) {
   .recipe-panel, .recipe-panel.active {
     position: fixed; inset: 0; width: 100vw; height: 100dvh; max-height: 100dvh;
     transform: none; border-radius: 0; grid-template-rows: auto auto 1fr;
     padding-bottom: env(safe-area-inset-bottom);
   }
-  .panel-img img { max-height: min(30vh, 30dvh); }
 }
 
-/* ===== Panel header (sticky) ===== */
+/* Header sticky */
 .panel-header {
   display: flex; align-items: center; justify-content: space-between; gap: 12px;
   padding: 14px 16px; position: sticky; top: 0; background: inherit; backdrop-filter: inherit;
@@ -104,19 +112,15 @@ body.modal-open { overflow: hidden; touch-action: none; }
 }
 .close-btn:hover { background: #b89028; }
 
-/* ===== Image area ===== */
+/* Ảnh trong popup lớn (ẩn khi là Prepared bằng JS thêm .is-prepared) */
 .panel-img {
   width: 100%; background: rgba(0,0,0,0.03); display: grid; place-items: center;
   border-bottom: 1px solid rgba(0,0,0,0.06);
 }
-.panel-img img {
-  width: 100%; height: auto; max-height: min(40vh, 40dvh); object-fit: contain; display: block;
-}
+.panel-img img { width: 100%; height: auto; max-height: min(40vh, 40dvh); object-fit: contain; display: block; }
 
-/* ===== Content (scrolls inside) ===== */
-.panel-content {
-  overflow: auto; -webkit-overflow-scrolling: touch; padding: 16px; overscroll-behavior: contain;
-}
+/* Nội dung popup lớn */
+.panel-content { overflow: auto; -webkit-overflow-scrolling: touch; padding: 16px; overscroll-behavior: contain; }
 .panel-content h3 { color: #d4af37; font-size: 1.05rem; margin: 12px 0 10px; }
 .panel-content ul, .panel-content ol { list-style: none; padding-left: 0; margin: 0 0 8px 0; }
 .panel-content li { margin-bottom: 6px; line-height: 1.45; }
@@ -124,63 +128,97 @@ body.modal-open { overflow: hidden; touch-action: none; }
 #panel-steps li { counter-increment: step; position: relative; padding-left: 26px; }
 #panel-steps li::before { content: counter(step) '.'; position: absolute; left: 0; color: #d4af37; font-weight: 700; }
 
+/* Ẩn khu ảnh khi là món Prepared */
+.recipe-panel.is-prepared .panel-img { display: none; }
+
+/* ===== Chips dẫn tới "Nguyên liệu thành phẩm" liên quan ===== */
+.prepared-refs {
+  margin: 10px 0 6px 0;
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.prepared-ref-chip {
+  border: 1px dashed #d4af37;
+  color: #b38418;
+  background: #fff7e0;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  cursor: pointer;
+  user-select: none;
+  transition: transform .05s ease;
+}
+.prepared-ref-chip:hover { transform: translateY(-1px); }
+
+/* ===== MINI POPUP (đè lên popup lớn) ===== */
+.prep-mini {
+  position: fixed;
+  z-index: 10050; /* cao hơn popup lớn */
+  left: 50%;
+  top: 50%;
+  width: clamp(280px, 80vw, 460px);
+  max-height: min(80vh, 80dvh);
+  transform: translate(-50%, -50%) scale(.95);
+  opacity: 0;
+  pointer-events: none;
+  background: rgba(255,255,255,0.98);
+  backdrop-filter: blur(16px);
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  overflow: hidden;
+  transition: transform .2s ease, opacity .2s ease;
+}
+.prep-mini.active {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  pointer-events: auto;
+}
+.prep-mini-header {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; padding: 10px 14px;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.prep-mini-header h3 { margin: 0; font-size: 1.05rem; color: #d4af37; }
+.prep-mini-close {
+  width: 32px; height: 32px; border-radius: 50%;
+  border: none; cursor: pointer;
+  background: #d4af37; color: #fff; font-size: 16px;
+}
+.prep-mini-body { padding: 12px 14px; overflow: auto; -webkit-overflow-scrolling: touch; }
+.prep-mini-body h4 { margin: 8px 0 8px; color: #333; font-size: .95rem; }
+.prep-mini-body ul { margin: 0; padding-left: 18px; }
+.prep-mini-body li { margin-bottom: 6px; line-height: 1.4; }
+
 /* ===== Responsive grid tweaks ===== */
 @media (max-width: 768px) {
   .filter-container { overflow-x: auto; white-space: nowrap; }
-  .menu-section { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; padding: 0 15px 30px; }
+  .menu-section {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px; padding: 0 15px 30px;
+  }
   .menu-card img { height: 140px; }
   .menu-card h3 { font-size: 0.95rem; }
 }
 @media (max-width: 480px) { .menu-section { grid-template-columns: 1fr; } }
-
-/* ===== Prepared list (dạng bảng) ===== */
-.prepared-list {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 0 15px 40px;
-  display: none; /* Ẩn mặc định, chỉ show khi chọn tab */
-}
-.prepared-list table {
-  width: 100%;
-  border-collapse: collapse;
-  background: #fff;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  border-radius: 10px;
-  overflow: hidden;
-}
-.prepared-list th,
-.prepared-list td {
-  padding: 10px 12px;
-  border-bottom: 1px solid #eee;
-  text-align: left;
-}
-.prepared-list th {
-  background: #d4af37;
-  color: #fff;
-}
-.prepared-list tr:last-child td {
-  border-bottom: none;
-}
-
-/* Card chỉ hiển thị tên cho nhóm Prepared */
-.menu-card.prepared-card {
-  display: grid;
-  place-items: center;
-  height: 120px;              /* chiều cao gọn nhẹ */
-  padding: 8px 10px;
-}
-
-.menu-card.prepared-card h3 {
-  background: transparent;    /* bỏ nền đen mờ của card có ảnh */
-  color: #000;
+/* Mini popup: numbering steps */
+#prep-mini-steps {
+  counter-reset: step;
+  list-style: none;
+  padding-left: 0;
   margin: 0;
-  padding: 0;
-  text-align: center;
-  line-height: 1.3;
-  font-size: 1rem;
 }
-
-/* Ẩn vùng ảnh trong pop-up khi là Prepared */
-.recipe-panel.is-prepared .panel-img {
-  display: none;
+#prep-mini-steps li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+#prep-mini-steps li::before {
+  content: counter(step) '.';
+  position: absolute;
+  left: 0;
+  color: #d4af37;
+  font-weight: 700;
 }
