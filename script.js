@@ -221,6 +221,55 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
+/* ===== Mini pop-up: định vị cạnh phải của popup lớn ===== */
+
+function positionPreparedMiniRight() {
+  // Nếu mini không mở -> bỏ qua
+  if (!prepMini.classList.contains("active")) return;
+
+  const panelRect = panel.getBoundingClientRect();
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+
+  // Kích thước mong muốn
+  const miniWidth = Math.min(420, Math.floor(vw * 0.42));
+  const miniHeight = Math.min(prepMini.offsetHeight || 400, Math.floor(vh * 0.8));
+  const gap = 12; // khoảng cách giữa 2 popup
+
+  // Vị trí đề xuất: dính cạnh phải panel
+  let left = Math.round(panelRect.right + gap);
+  let top = Math.round(panelRect.top);
+
+  // Nếu tràn phải -> thử dính cạnh trái của panel
+  if (left + miniWidth > vw) {
+    left = Math.round(panelRect.left - gap - miniWidth);
+  }
+
+  // Nếu vẫn không đặt được (màn quá hẹp hoặc panel full-screen) -> fallback center
+  const cannotPlaceSide = (left < 0) || (panelRect.width >= vw - 40);
+  if (cannotPlaceSide) {
+    prepMini.classList.remove("side");
+    // reset để dùng transform center mặc định
+    prepMini.style.left = "";
+    prepMini.style.top = "";
+    prepMini.style.width = "";
+    prepMini.style.maxHeight = "";
+    return;
+  }
+
+  // Clamp theo chiều dọc để không tràn
+  const maxTop = Math.max(0, vh - miniHeight - 10);
+  top = Math.min(Math.max(10, top), maxTop);
+
+  // Áp toạ độ & kích thước
+  prepMini.classList.add("side");
+  prepMini.style.position = "fixed";
+  prepMini.style.left = left + "px";
+  prepMini.style.top = top + "px";
+  prepMini.style.width = miniWidth + "px";
+  prepMini.style.maxHeight = Math.min(vh - top - 10, Math.floor(vh * 0.8)) + "px";
+}
+
 /* ===== MINI POP-UP (Nguyên liệu thành phẩm: Nguyên liệu + Công thức) ===== */
 
 function openPreparedMini(prepItem) {
@@ -258,9 +307,28 @@ function openPreparedMini(prepItem) {
   // Mở mini
   prepMini.classList.add("active");
   prepMini.setAttribute("aria-hidden", "false");
+
+  // Định vị cạnh phải của panel và gắn listener
+  positionPreparedMiniRight();
+  const _reposition = () => positionPreparedMiniRight();
+  window.addEventListener("resize", _reposition);
+  window.addEventListener("scroll", _reposition, { passive: true });
+  prepMini._reposition = _reposition;
 }
 
 function closePreparedMini() {
+  // Tháo listener và reset style
+  if (prepMini._reposition) {
+    window.removeEventListener("resize", prepMini._reposition);
+    window.removeEventListener("scroll", prepMini._reposition);
+    prepMini._reposition = null;
+  }
+  prepMini.classList.remove("side");
+  prepMini.style.left = "";
+  prepMini.style.top = "";
+  prepMini.style.width = "";
+  prepMini.style.maxHeight = "";
+
   prepMini.classList.remove("active");
   prepMini.setAttribute("aria-hidden", "true");
 }

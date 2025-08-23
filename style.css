@@ -222,3 +222,11 @@ body.modal-open { overflow: hidden; touch-action: none; }
   color: #d4af37;
   font-weight: 700;
 }
+
+/* Mini popup khi bám cạnh bên phải của popup lớn */
+.prep-mini.side {
+  transform: none;              /* đứng yên theo toạ độ tuyệt đối do JS set */
+  left: 0;                      /* sẽ bị JS ghi đè */
+  top: 0;                       /* sẽ bị JS ghi đè */
+  max-width: 420px;             /* gọn gàng khi bám cạnh */
+}
