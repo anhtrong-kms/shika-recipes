@@ -48,7 +48,7 @@
     "hinhAnh": "images/tra-vai-hoa-hong.jpg",
     "nguyenLieu": [
       "🍑 Mứt vải Osterberg: 20ml",
-      "🌹 Siro hoa hồng Monin: 15ml",
+      "🌹 Siro hoa hồng Monin: 10ml",
       "🌺 Mứt hoa hồng: 10ml",
       "🍵 Trà vải Combo Shika: 180ml",
       "🧊 Đá viên: vừa đủ",
@@ -115,13 +115,14 @@
       "🍑 Mứt đào Berino: 30ml",
       "🍵 Trà đào Combo Shika: 180ml",
       "🍯 Mật ong: 10ml",
-      "🍍 Syrup lá dứa Monin: 10ml",
+      "🍍 Syrup lá dứa Monin: 5ml",
+      "🍋 Syrup chanh Lime: 5ml",
       "🧊 Đá viên: vừa đủ",
       "🌹 Cánh hoa hồng: trang trí"
     ],
     "congThuc": [
       "Cho 180ml trà đào Combo Shika vào bình lắc.",
-      "Cho 30ml mứt đào Berino, 10ml mật ong và 10ml syrup lá dứa vào ly 500ml, khuấy nhẹ để hòa quyện.",
+      "Cho 30ml mứt đào Berino, 10ml mật ong, 5ml syrup lá dứa và 5ml Syrup chanh Lime vào ly 500ml, khuấy nhẹ để hòa quyện.",
       "Thêm đá viên vào đầy ly.",
       "Rót hỗn hợp trà vừa pha vào ly đã chuẩn bị sẵn.",
       "Rải cánh hoa hồng lên trên để trang trí."
@@ -317,7 +318,7 @@
   ]
 },
 {
-  "tenMon": "Pandan Fusio - Cần test lại",
+  "tenMon": "Pandan Fusion",
   "category": "Shika Coffee",
   "dungLuong": "350ml",
   "hinhAnh": "images/pandan-fusion.png",
@@ -394,7 +395,7 @@
 {
   "tenMon": "Cà Phê Muối",
   "category": "Traditional Coffee",
-  "dungLuong": "350ml",
+  "dungLuong": "200ml",
   "hinhAnh": "images/ca-phe-muoi.png",
   "nguyenLieu": [
     "☕ Cà phê Arabica - H - Medium: 4g",
@@ -413,7 +414,7 @@
 {
   "tenMon": "Cacao Muối",
   "category": "Cacao",
-  "dungLuong": "350ml",
+  "dungLuong": "200ml",
   "hinhAnh": "images/cacao-muoi.png",
   "nguyenLieu": [
     "🍫 Bột cacao LUAVE: 10g",
