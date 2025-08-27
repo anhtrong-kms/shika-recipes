@@ -1,10 +1,10 @@
 [
   {
     "note": "Trà hoa đậu biếc Yakult",
-    "tenMon": "Blue Dream", 
+    "tenMon": "Blue Dream",
     "category": "Iced Tea",
     "dungLuong": "500ml",
-    "hinhAnh": "images/yakult-hoa.gif",
+    "hinhAnh": "./Source ảnh món/3. Iced Tea/Blue Dream.jpg",
     "nguyenLieu": [
       "🍓 Mứt trái cây hỗn hợp Osterberg: 40ml",
       "🍯 Nước Đường Shika: 20ml",
@@ -23,7 +23,7 @@
     "tenMon": "Matcha Latte",
     "category": "Matcha",
     "dungLuong": "350ml",
-    "hinhAnh": "images/latte.jpg",
+    "hinhAnh": "./Source ảnh món/5. Matcha/Matcha Latte.jpg",
     "nguyenLieu": [
       "🍵 Bột matcha Uji: 1.5g",
       "🍵 Bột matcha Cozy: 1.5g",
@@ -45,7 +45,7 @@
     "note": "Trà vải hoa hồng",
     "category": "Iced Tea",
     "dungLuong": "500ml",
-    "hinhAnh": "images/tra-vai-hoa-hong.jpg",
+    "hinhAnh": "./Source ảnh món/3. Iced Tea/Lychee N Rose.jpg",
     "nguyenLieu": [
       "🍑 Mứt vải Osterberg: 20ml",
       "🌹 Siro hoa hồng Monin: 10ml",
@@ -65,7 +65,7 @@
     "tenMon": "Machi Matcha",
     "category": "Matcha",
     "dungLuong": "350ml",
-    "hinhAnh": "images/Machi-matcha.jpg",
+    "hinhAnh": "./Source ảnh món/5. Matcha/Machi Matcha.jpg",
     "nguyenLieu": [
       "🍵 Matcha Shika: 30ml",
       "🥛 Sữa Shika: 100ml",
@@ -85,7 +85,7 @@
     "tenMon": "Matcha Oreo",
     "category": "Matcha",
     "dungLuong": "350ml",
-    "hinhAnh": "images/oreo-matcha.webp",
+    "hinhAnh": "./Source ảnh món/5. Matcha/Matcha Oreo.jpg",
     "nguyenLieu": [
       "🍪 Bánh Oreo: 2 cái",
       "🍵 Bột matcha Cozy: 1.5g",
@@ -110,7 +110,7 @@
     "note": "Trà Đào Lá Dứa Mật Ong",
     "category": "Iced Tea",
     "dungLuong": "500ml",
-    "hinhAnh": "images/tra-dao-la-dua-mat-ong.png",
+    "hinhAnh": "./Source ảnh món/3. Iced Tea/Peach Honey.jpg",
     "nguyenLieu": [
       "🍑 Mứt đào Berino: 30ml",
       "🍵 Trà đào Combo Shika: 180ml",
@@ -132,836 +132,836 @@
     "tenMon": "Cacao Creamy Cloudy",
     "category": "Cacao",
     "dungLuong": "350ml",
-    "hinhAnh": "images/cacao-creamy-cloudy.png",
+    "hinhAnh": "./Source ảnh món/4. Cacao/Cacao Creamy Cloudy.jpg",
     "nguyenLieu": [
-        "🍫 Cacao Shika: 10ml",
-        "🥛 Sữa tươi Meadow kem: 10ml",
-        "🥛 Sữa đặc Ngôi Sao: 10ml",
-        "☁️ Creamy Cloudy Shika: 122ml",
-        "🧊 Đá viên: vừa đủ (nếu uống lạnh)",
-        "🍫 Bột cacao: một ít (trang trí)"
+      "🍫 Cacao Shika: 10ml",
+      "🥛 Sữa tươi Meadow kem: 10ml",
+      "🥛 Sữa đặc Ngôi Sao: 10ml",
+      "☁️ Creamy Cloudy Shika: 122ml",
+      "🧊 Đá viên: vừa đủ (nếu uống lạnh)",
+      "🍫 Bột cacao: một ít (trang trí)"
     ],
     "congThuc": [
-        "Đánh 122ml Creamy Cloudy Shika cho đến khi bông mịn.",
-        "Khuấy đều 10ml cacao Shika, 10ml sữa tươi Meadow kem và 10ml sữa đặc Ngôi Sao trong một bình lắc hoặc ca đong.",
-        "Cho đá viên vào ly 350ml",
-        "Rót hỗn hợp cacao đã khuấy vào ly.",
-        "Thêm 122ml Creamy Cloudy Shika vào ly, khuấy nhẹ để hòa quyện.",
-        "Rắc một ít bột cacao lên bề mặt để trang trí và tăng hương vị."
+      "Đánh 122ml Creamy Cloudy Shika cho đến khi bông mịn.",
+      "Khuấy đều 10ml cacao Shika, 10ml sữa tươi Meadow kem và 10ml sữa đặc Ngôi Sao trong một bình lắc hoặc ca đong.",
+      "Cho đá viên vào ly 350ml",
+      "Rót hỗn hợp cacao đã khuấy vào ly.",
+      "Thêm 122ml Creamy Cloudy Shika vào ly, khuấy nhẹ để hòa quyện.",
+      "Rắc một ít bột cacao lên bề mặt để trang trí và tăng hương vị."
     ]
-    },
-    {
-  "tenMon": "Machi Peach",
-  "category": "Milk Tea",
-  "dungLuong": "500ml",
-  "hinhAnh": "images/machi-dao.png",
-  "nguyenLieu": [
-    "🍑 Trà Đào túi lọc Cozy: 1 túi",
-    "🍑 Mứt đào Berino: 30ml",
-    "🍯 Nước Đường Shika: 20ml",
-    "🧂 Milk Foam Muối Shika: 30ml",
-    "🧊 Đá viên: vừa đủ"
-  ],
-  "congThuc": [
-    "Pha trà túi lọc Cozy (1 túi) với 180ml nước nóng trong 5 phút và để nguội trong ly 200ml",
-    "Đánh 30ml foam muối shika",
-    "Cho 30ml mứt đào và 20ml nước đường Shika vào ly 500ml, khuấy đều.",
-    "Thêm đá viên đầy ly 500ml",
-    "Rót trà đào Shika vào ly",
-    "Cho 30ml milk foam muối Shika lên trên bề mặt ly, trải đều."
-  ]
-},
-{
-  "tenMon": "Rose N jujube longan",
-  "note":"Hoa hồng táo đỏ long nhãn",
-  "category": "Iced Tea",
-  "dungLuong": "500ml",
-  "hinhAnh": "images/tra-tao-do-long-nhan.png",
-  "nguyenLieu": [
-    "🌹 Mứt hoa hồng: 20ml",
-    "🍎 Mứt táo đỏ long nhãn: 20ml",
-    "🍯 Nước Đường Shika: 20ml",
-    "🍵 Hồng trà Shika: 100ml",
-    "💧 Nước: 80ml",
-    "🧊 Đá viên: vừa đủ",
-    "🌹 Cánh hoa hồng hoặc lát táo đỏ/long nhãn: trang trí"
-  ],
-  "congThuc": [
-    "Cho 20ml mứt hoa hồng, 20ml mứt táo đỏ long nhãn và 20ml nước đường Shika vào ly 500ml.",
-    "Rót 100ml hồng trà Shika và 80ml nước vào ly và khuấy đều.",
-    "Thêm đá viên vào đầy ly để làm lạnh đồ uống (khoảng 150g đá viên cho ly 500ml).",
-    "Trang trí với cánh hoa hồng khô."
-  ]
-},
-{
-  "tenMon": "Matcha Berry",
-  "category": "Matcha",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/berry-matcha.png",
-  "nguyenLieu": [
-    "🍵 Bột matcha Cozy: 1.5g",
-    "🍵 Bột matcha Uji: 1.5g",
-    "🥛 Sữa Shika: 100ml",
-    "🍓 Mứt trái cây hỗn hợp Osterberg: 30ml",
-    "🧊 Đá viên: vừa đủ"
-  ],
-  "congThuc": [
-    "Cho 1.5g bột matcha Cozy và 1.5g bột matcha Uji vào chén, thêm khoảng 30ml nước nóng (70–80°C) và đánh đều cho tan và nổi bọt mịn.",
-    "Thêm 30ml mứt trái cây hỗn hợp Osterberg vào ly 350ml.",
-    "Cho đá viên vào đầy ly 350ml.",
-    "Cho 100ml sữa Shika vào ly.",
-    "Rót từ từ matcha đã đánh lên trên."
-  ]
-},
-{
-  "tenMon": "Matcha Coco",
-  "category": "Matcha",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/coco-matcha.png",
-  "nguyenLieu": [
-    "🥥 Nước dừa: 100ml",
-    "🍵 Bột matcha Uji: 1.5g",
-    "🍵 Bột matcha Cozy: 1.5g",
-    "🍦 Whipping cream Anchor: 20ml",
-    "🥛 Sữa đặc Ngôi Sao: 20ml",
-    "🥥 Nước cốt dừa Wonderfarm: 20ml",
-    "🧊 Đá viên: vừa đủ"
-  ],
-  "congThuc": [
-    "Cho 20ml whipping cream vào ly, dùng máy đánh bông lên",
-    "Cho lần lượt  20ml sữa đặc và 20ml cốt dừa vào đánh cho đến khi mịn",
-    "Cho 1.5g bột matcha Uji và 1.5g bột matcha Cozy vào ly và đánh đều cho bột matcha hòa tan.",
-    "Cho 100ml nước dừa vào ly 350ml.",
-    "Thêm đá viên vào đầy ly 350ml.",
-    "Rót từ từ hỗn hợp matcha đã đánh lên trên lớp nước dừa và đá.",
-    "Trang trí với dừa sấy khô."
-  ]
-},
-{
-  "tenMon": "Coconut Cream Cafe",
-  "category": "Shika Coffee",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/coco-ca-phe.png",
-  "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 18g",
-    "🥥 Nước cốt dừa Wonderfarm: 30ml",
-    "🥛 Sữa đặc Ngôi Sao: 30ml",
-    "🥛 Sữa Shika: 70ml",
-    "🧊 Đá viên: vừa đủ"
-  ],
-  "congThuc": [
-    "Cho 30ml sữa đặc Ngôi Sao, 30ml nước cốt dừa Wonderfarm và 70ml sữa Shika vào ly, khuấy đều.",
-    "Cho đá viên vào đầy ly (khoảng 150g).",
-    "Pha 18g cà phê Arabica - H - Medium và rót lên trên lớp sữa dừa."
-  ]
-},
-{
-  "tenMon": "Creamy Cloudy",
-  "category": "Shika Coffee",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/creamy-cloudy.jpg",
-  "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 18g",
-    "🥛 Sữa đặc Ngôi Sao: 20ml",
-    "☁️ Creamy Cloudy Shika: 122ml"
-  ],
-  "congThuc": [
-    "Cho 20ml sữa đặc Ngôi Sao vào ly 350ml.",
-    "Pha 18g cà phê Arabica - H - Medium và rót vào ly.",
-    "Khuấy đều, sau đó cho đá vào ly (khoảng 150g).",
-    "Thêm 122ml Creamy Cloudy Shika lên trên.",
-    "Trang trí với bột cacao (1g)."
-  ]
-},
-{
-  "tenMon": "Americano",
-  "category": "Shika Coffee",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/americano.png",
-  "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 18g"
-  ],
-  "congThuc": [
-    "Rót 100ml nước lọc vào ly 350ml.",
-    "Thêm đá viên vào ly nước lọc (khoảng 150g).",
-    "Trích xuất 18g cà phê Arabica - H - Medium bằng máy pha cà phê.",
-    "Thêm cà phê đã pha vào ly nước lọc."
-  ]
-},
-{
-  "tenMon": "Espresso",
-  "category": "Shika Coffee",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/espresso.png",
-  "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 18g"
-  ],
-  "congThuc": [
-    "Trích xuất 18g cà phê Arabica - H - Medium bằng máy pha cà phê hoặc phin.",
-    "Đính kèm 1 tách đường 20ml."
-  ]
-},
-{
-  "tenMon": "Soul",
-  "category": "Shika Coffee",
-  "dungLuong": "170ml",
-  "hinhAnh": "images/soul.png",
-  "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 18g",
-    "🥛 Sữa đặc Ngôi Sao: 40ml",
-    "🥛 Whipping Cream Anchor: 40ml"
-  ],
-  "congThuc": [
-    "Cho 40ml sữa đặc Ngôi Sao và 40ml whipping cream vào ly 170ml.",
-    "Pha 18g cà phê Arabica - H - Medium và rót vào ly.",
-    "Khuấy nhẹ để hòa quyện hương vị.",
-    "Thêm 1 ít đá viên viên (khoảng 80g)."
-  ]
-},
-{
-  "tenMon": "Pandan Fusion",
-  "category": "Shika Coffee",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/pandan-fusion.png",
-  "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 18g",
-    "🥛 Sữa đặc Ngôi Sao: 30ml",
-    "🥛 Sữa tươi Meadow kem: 70ml",
-    "🌿 Lá Dứa Shika: 5ml",
-    "🍍 Syrup Dứa Monin: 5ml",
-    "🍦 Kem cream Ice Hot: 5ml"
-  ],
-  "congThuc": [
-    "Cho 30ml sữa đặc, 5ml lá dứa Shika, 5ml syrup dứa Monin và 5ml kem cream Ice Hot vào bình lắc, khuấy đều.",
-    "Rót hỗn hợp sữa dừa vào ly 350ml.",
-    "Cho đá viên vào đầy ly (khoảng 150g).",
-    "Rót 70ml sữa tươi Meadow kem vào ly.",
-    "Pha 18g cà phê Arabica - H - Medium và Robusta - H - Medium, rót lên trên lớp sữa."
-  ]
-},
-{
-  "tenMon": "Bạc Xỉu",
-  "category": "Traditional Coffee",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/bac-xiu.png",
-  "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 4g",
-    "☕ Cà phê Robusta - H - Medium: 14g",
-    "🥛 Sữa đặc Ngôi Sao: 30ml",
-    "🥛 Sữa tươi Meadow kem: 70ml"
-  ],
-  "congThuc": [
-    "Cho 30ml sữa đặc Ngôi Sao và 70ml sữa tươi Meadow kem vào ly.",
-    "Khuấy nhẹ để hòa quyện hương vị.",
-    "Thêm đá viên (khoảng 150g).",
-    "Pha 4g cà phê Arabica - H - Medium và 14g Robusta - H - Medium, rót vào ly."
-  ]
-},
-{
-  "tenMon": "Nâu",
-  "category": "Traditional Coffee",
-  "dungLuong": "200ml",
-  "hinhAnh": "images/coffee-nau.png",
-  "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 4g",
-    "☕ Cà phê Robusta - H - Medium: 14g",
-    "🥛 Sữa đặc Ngôi Sao: 20ml"
-  ],
-  "congThuc": [
-    "Cho 20ml sữa đặc Ngôi Sao vào ly 200ml.",
-    "Pha 4g cà phê Arabica - H - Medium và 14g Robusta - H - Medium, rót vào ly.",
-    "Khuấy nhẹ để hòa quyện hương vị.",
-    "Thêm đá viên nếu muốn uống lạnh (khoảng 100g)."
-  ]
-},
-{
-  "tenMon": "Đen",
-  "category": "Traditional Coffee",
-  "dungLuong": "200ml",
-  "hinhAnh": "images/coffee-den.png",
-  "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 4g",
-    "☕ Cà phê Robusta - H - Medium: 14g",
-    "🍬 Đường: 10ml",
-    "🍬 Tách đường: 10ml"
-  ],
-  "congThuc": [
-    "Pha 4g cà phê Arabica - H - Medium và 14g Robusta - H - Medium bằng máy pha cà phê hoặc phin.",
-    "Rót cà phê vào ly 200ml.",
-    "Thêm 10ml đường vào ly, khuấy đều.",
-    "Thêm đá viên vừa đủ (khoảng 100g).",
-    "Phục vụ kèm thêm 1 tách đường nhỏ 10ml để khách có thể điều chỉnh độ ngọt theo ý thích."
-  ]
-},
-{
-  "tenMon": "Cà Phê Muối",
-  "category": "Traditional Coffee",
-  "dungLuong": "200ml",
-  "hinhAnh": "images/ca-phe-muoi.png",
-  "nguyenLieu": [
-    "☕ Cà phê Arabica - H - Medium: 4g",
-    "☕ Cà phê Robusta - H - Medium: 14g",
-    "🥛 Sữa đặc Ngôi Sao: 20ml",
-    "🧂 Milk Foam Muối Shika: 30ml"
-  ],
-  "congThuc": [
-    "Cho 20ml sữa đặc Ngôi Sao vào ly 350ml.",
-    "Pha 4g cà phê Arabica - H - Medium và 14g Robusta - H - Medium, rót vào ly.",
-    "Khuấy nhẹ để hòa quyện hương vị.",
-    "Thêm đá viên (khoảng 150g).",
-    "Thêm 30ml milk foam muối Shika lên trên bề mặt cà phê."
-  ]
-},
-{
-  "tenMon": "Cacao Muối",
-  "category": "Cacao",
-  "dungLuong": "200ml",
-  "hinhAnh": "images/cacao-muoi.png",
-  "nguyenLieu": [
-    "🍫 Bột cacao LUAVE: 10g",
-    "🥛 Sữa đặc Ngôi Sao: 20ml",
-    "🧂 Milk Foam Muối Shika: 30ml"
-  ],
-  "congThuc": [
-    "Đánh 30ml foam muối Shika.",
-    "Cho 10g bột cacao LUAVE và 20ml sữa đặc Ngôi Sao vào ly 350ml, khuấy đều cho tan.",
-    "Thêm 30ml milk foam muối Shika lên trên bề mặt cacao.",
-    "Thêm đá viên nếu muốn uống lạnh (khoảng 150g).",
-    "Trang trí với 1g bột cacao rắc lên trên milk foam."
-  ]
-},
-{
-  "tenMon": "Coco Mango",
-  "category": "Non-Caffein",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/coco-mango.png",
-  "nguyenLieu": [
-    "🥭 Mứt xoài Berino: 10ml",
-    "🥭 Sinh tố xoài: 20ml",
-    "🍶 Whipping Cream Anchor: 20ml",
-    "🥥 Nước cốt dừa Wonderfarm: 30ml",
-    "🥛 Sữa Shika: 50ml",
-    "🧊 Đá viên: vừa đủ"
-  ],
-  "congThuc": [
-    "Cho 10ml mứt xoài Berino và 20ml sinh tố xoài Golden Farm xuống đáy ly 350ml.",
-    "Trong shaker, cho 20ml whipping cream, 30ml nước cốt dừa Wonderfarm và 50ml sữa Shika, khuấy đều.",
-    "Cho đá viên vào ly đã có mứt xoài (khoảng 150g).",
-    "Rót hỗn hợp vào ly.",
-    "Trang trí thêm dừa sấy (2g)."
-  ]
-},
-{
-  "tenMon": "Lychee Butterfly",
-  "note": "Trà vải hoa đậu biếc",
-  "category": "Iced Tea",
-  "dungLuong": "500ml",
-  "hinhAnh": "images/tra-vai-hoa-dau-biec.png",
-  "nguyenLieu": [
-    "🍑 Mứt vải Osterberg: 40ml",
-    "🍯 Nước Đường Shika: 20ml",
-    "💧 Nước lọc: 50ml",
-    "🌸 Hoa đậu biếc: 100ml"
-  ],
-  "congThuc": [
-    "Cho 40ml mứt vải, 20ml nước đường và 50ml nước lọc vào ly, khuấy đều.",
-    "Thêm đá viên vào đầy ly (khoảng 200g).",
-    "Rót từ từ 100ml hoa đậu biếc vào ly để tạo hiệu ứng phân tầng.",
-    "Trang trí với cánh hoa hồng trên mặt ly (2g)."
-  ]
-},
-{
-  "tenMon": "Green meets red",
-  "category": "Matcha",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/matcha-thai-do.png",
-  "nguyenLieu": [
-    "🍵 Bột matcha Cozy: 1.5g",
-    "🍵 Bột matcha Uji: 1.5g",
-    "🍹 Trà Thái Đỏ Shika: 50ml",
-    "🥛 Sữa Shika: 100ml",
-    "🧊 Đá viên: vừa đủ"
-  ],
-  "congThuc": [
-    "Đánh tan 1.5g bột matcha Cozy và 1.5g bột matcha Uji với 30ml nước nóng (70–80°C) cho mịn và nổi bọt.",
-    "Cho 100ml sữa Shika và 50ml trà Thái Đỏ Shika vào shaker, khuấy đều.",
-    "Rót hỗn hợp sữa – trà Thái Đỏ vào ly 350ml.",
-    "Thêm đá viên vừa đủ (khoảng 150g).",
-    "Rót từ từ matcha đã đánh lên trên cùng để tạo lớp màu xanh nổi bật."
-  ]
-},
-{
-  "tenMon": "Red Thai Cha Milk Tea",
-  "category": "Milk Tea",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/tra-sua-thai-do.png",
-  "nguyenLieu": [
-    "🍹 Trà Thái Đỏ Shika: 150ml",
-    "🥛 Sữa Shika: 100ml",
-    "🔮 Trân châu: vừa đủ",
-    "🧊 Đá viên: vừa đủ"
-  ],
-  "congThuc": [
-    "Cho 30g trân châu vào đáy ly 350ml.",
-    "Thêm đá viên vừa đủ vào ly (khoảng 150g).",
-    "Rót 100ml sữa Shika vào ly.",
-    "Rót tiếp 150ml trà Thái Đỏ Shika lên trên.",
-    "Khuấy nhẹ trước khi thưởng thức."
-  ]
-},
-{
-  "tenMon": "Jujube Longan",
-  "category": "Non-Caffein",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/sua-tuoi-tao-do-long-nhan.png",
-  "nguyenLieu": [
-    "🍎 Mứt táo đỏ long nhãn: 20ml",
-    "🥛 Sữa tươi Meadow kem: 100ml",
-    "🍯 Nước Đường Shika: 10ml"
-  ],
-  "congThuc": [
-    "Cho 20ml mứt và 10ml nước đường vào ly.",
-    "Thêm 100ml sữa tươi vào ly, khuấy đều.",
-    "Thêm đá viên vào đầy ly (khoảng 150g)."
-  ]
-},
-{
-  "tenMon": "Bana Coco Cafe",
-  "category": "Shika Coffee",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/bana-coco-cafe.png",
-  "nguyenLieu": [
-    "🍌 Mứt chuối: 10ml",
-    "🥥 Nước cốt dừa Wonderfarm: 30ml",
-    "☕ Cà phê Arabica - H - Medium: 18g",
-    "🥛 Sữa đặc Ngôi Sao: 20ml",
-    "🍶 Whipping Cream Anchor: 20ml",
-    "🥛 Sữa Shika: 50ml"
-  ],
-  "congThuc": [
-    "Cho 10ml mứt chuối xuống đáy ly 350ml và 20ml sữa đặc sau đó khuấy đều.",
-    "Cho 20ml whipping cream, 30ml cốt dừa, 50ml sữa tươi khuấy đều trong shaker.",
-    "Cho đá viên vào ly đã có mứt chuối (khoảng 150g).",
-    "Rót hỗn hợp sữa dừa vào ly.",
-    "Pha 18g cà phê Arabica - H - Medium và rót lên trên lớp sữa."
-  ]
-},
-{
-  "tenMon": "Mật ong cam vàng",
-  "category": "Shika Coffee",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/mat-ong-cam-vang.png",
-  "nguyenLieu": [
-    "Cam tươi: 50ml",
-    "Mật ong: 20ml",
-    "Cold brew: 100ml"
-  ],
-  "congThuc": [
-    "Cho 20ml mật ong để dưới đáy ly.",
-    "Cho 50ml nước cam vào ly.",
-    "Thêm đá viên vào đầy ly (khoảng 150g).",
-    "Rót 100ml cold brew vào ly.",
-    "Trang trí với lát cam khô trên miệng ly (1 lát)."
-  ]
-},
-{
-  "tenMon": "Noon Mirage",
-  "category": "Iced Tea",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/noon-mirage.png",
-  "nguyenLieu": [
-    "🥭 Mứt xoài Berino: 20ml",
-    "🥭 Sinh tố xoài: 20ml",
-    "🍍 Mứt thơm Berino: 20ml",
-    "🍯 Nước đường Shika: 30ml",
-    "🍵 Trà ô long Shika: 100ml",
-    "🍋 Cốt chanh tươi: 5ml",
-    "🥥 Syrup dừa: 10ml",
-    "🧂 Muối hồng: 1g"
-  ],
-  "congThuc": [
-    "Chà 5ml nước cốt chanh quanh miệng ly, sau đó chà 0.5g muối hồng dùng để trang trí.",
-    "Cho 20ml mứt xoài, 20ml sinh tố xoài, 20ml mứt thơm, 30ml nước đường, 10ml syrup dừa, 0.5g muối hồng và 5ml cốt chanh tươi vào ly, khuấy đều.",
-    "Cho đá viên vào ly đã trang trí muối hồng (khoảng 150g).",
-    "Thêm 100ml trà Olong shika + 80ml nước lọc, khuấy nhẹ và phục vụ."
-  ]
-},
-{
-  "tenMon": "Trà Sữa Gạo Rang",
-  "category": "Milk Tea",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/tra-sua-gao-rang.png",
-  "nguyenLieu": [
-    "Trà gạo rang Shika: 150ml",
-    "🍯 Nước Đường Shika: 20ml",
-    "🧂 Milk Foam Muối Shika: 30ml"
-  ],
-  "congThuc": [
-    "Đánh 30ml foam muối Shika.",
-    "Cho 20ml nước đường Shika vào ly 350ml.",
-    "Thêm 150ml trà gạo rang Shika vào ly, khuấy nhẹ.",
-    "Cho đá viên vào đầy ly (khoảng 150g).",
-    "Thêm 30ml milk foam muối Shika lên trên bề mặt trà sữa.",
-    "Trang trí với 2g hạt gạo rang hoặc bột trà gạo rang nếu muốn."
-  ]
-},
-{
-  "tenMon": "Olong Milk Tea",
-  "category": "Milk Tea",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/olong-milk-tea.png",
-  "nguyenLieu": [
-    "🍵 Trà ô long Shika: 150ml",
-    "🥛 Sữa Shika: 100ml",
-    "🔮 Trân châu: vừa đủ"
-  ],
-  "congThuc": [
-    "Cho 30g trân châu vào đáy ly 350ml.",
-    "Thêm đá viên vừa đủ vào ly (khoảng 150g).",
-    "Rót 100ml sữa Shika vào ly, thêm 150ml trà vào ly.",
-    "Khuấy nhẹ trước khi thưởng thức."
-  ]
-},
-{
-  "tenMon": "Oreo Milk Tea",
-  "category": "Milk Tea",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/tra-sua-oreo.png",
-  "nguyenLieu": [
-    "🍪 Bánh Oreo: 2 cái",
-    "🥛 Sữa Shika: 100ml",
-    "🔮 Trân châu: vừa đủ",
-    "🍵 Trà ô long Shika: 150ml"
-  ],
-  "congThuc": [
-    "Dằm nhuyễn 1 chiếc bánh Oreo và cho vào đáy ly 350ml.",
-    "Cho 30g trân châu vào ly.",
-    "Thêm đá viên vừa đủ vào ly (khoảng 150g).",
-    "Rót 100ml sữa Shika và 150ml trà ô long Shika vào ly, khuấy nhẹ để hòa quyện.",
-    "Đặt 1 chiếc bánh Oreo nguyên lên trên bề mặt trà sữa để trang trí."
-  ]
-},
-{
-  "tenMon": "Bana Choco",
-  "category": "Cacao",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/bana-choco.png",
-  "nguyenLieu": [
-    "🍫 Cacao Shika: 30ml",
-    "🍌 Mứt chuối: 10g",
-    "🥛 Sữa đặc Ngôi Sao: 20ml",
-    "🥛 Sữa tươi Meadow kem: 70ml",
-    "🧊 Đá viên: vừa đủ"
-  ],
-  "congThuc": [
-    "Cho 10g mứt chuối xuống đáy ly 350ml.",
-    "Trong shaker, cho 30ml cacao Shika, 20ml sữa đặc và 70ml sữa tươi Meadow kem, khuấy hoặc lắc đều.",
-    "Cho đá viên vào ly đã có mứt chuối (khoảng 150g).",
-    "Rót hỗn hợp cacao sữa vào ly.",
-    "Trang trí thêm lát chuối hoặc 1g bột cacao nếu muốn."
-  ]
-},
-{
-  "tenMon": "Coco Bana",
-  "category": "Non-Caffein",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/coco-bana.png",
-  "nguyenLieu": [
-    "🍌 Mứt chuối: 10g",
-    "🥛 Sữa đặc Ngôi Sao: 20ml",
-    "🥥 Nước cốt dừa Wonderfarm: 30ml",
-    "🥛 Sữa Shika: 50ml",
-    "🍶 Whipping Cream Anchor: 20ml",
-    "🧊 Đá viên: vừa đủ"
-  ],
-  "congThuc": [
-    "Cho 10g mứt chuối xuống đáy ly 350ml.",
-    "Trong shaker, cho 20ml whipping cream, 20ml sữa đặc và 30ml nước cốt dừa Wonderfarm, khuấy đều.",
-    "Cho đá viên vào ly đã có mứt chuối (khoảng 150g).",
-    "Rót hỗn hợp sữa dừa vào ly.",
-    "Trang trí thêm 2g dừa sấy."
-  ]
-},
-{
-  "tenMon": "Coco Brew - Option 1 (Cold Brew - vị nhẹ nhàng hơn)",
-  "category": "Shika Coffee",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/coco-bana.png",
-  "nguyenLieu": [
-    "🍯 Nước Đường Shika: 10ml",
-    "Cold brew: 100ml",
-    "🥥 Nước dừa: 100ml"
-  ],
-  "congThuc": [
-    "Cho 10ml nước đường Shika vào ly 350ml.",
-    "Thêm 100ml nước dừa vào ly, khuấy nhẹ.",
-    "Cho đá viên vào đầy ly (khoảng 150g).",
-    "Rót 100ml cold brew vào ly.",
-    "Trang trí với 2g vụn dừa sấy khô."
-  ]
-},
-{
-  "tenMon": "Coco Brew - Option 2 (Espesso - vị đậm đà hơn)",
-  "category": "Shika Coffee",
-  "dungLuong": "350ml",
-  "hinhAnh": "images/coco-bana.png",
-  "nguyenLieu": [
-    "🍯 Nước Đường Shika: 10ml",
-    "Esspresso: 100ml",
-    "🥥 Nước dừa: 100ml"
-  ],
-  "congThuc": [
-    "Cho 10ml nước đường Shika vào ly 350ml.",
-    "Thêm 100ml nước dừa vào ly, khuấy nhẹ.",
-    "Cho đá viên vào đầy ly (khoảng 150g).",
-    "Rót 100ml Espresso vào ly.",
-    "Trang trí với 2g vụn dừa sấy khô."
-  ]
-},
-{
-  "tenMon": "Milk Foam ShiKa",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Sữa đặc ngôi sao: 10 ml",
-    "Kem cream Ice hot: 50 ml"
-  ],
-  "congThuc": [
-    "Cho 10ml sữa đặc ngôi sao và 50ml kem cream Ice hot vào ly.",
-    "Đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn."
-  ]
-},
-{
-  "tenMon": "Milk Foam Muối Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Sữa đặc ngôi sao: 10 ml",
-    "Kem cream Ice hot: 50 ml",
-    "Muối Hồng: 1 gram"
-  ],
-  "congThuc": [
-    "Cho 10ml sữa đặc ngôi sao, 50ml kem cream Ice hot và 1g muối hồng vào ly.",
-    "Đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn."
-  ]
-},
-{
-  "tenMon": "Sữa Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Sữa đặc ngôi sao: 400 ml",
-    "Kem cream Ice hot: 100 ml",
-    "Sữa tươi Meadow kem: 500 ml"
-  ],
-  "congThuc": [
-    "Cho 400ml sữa đặc ngôi sao, 100ml kem cream Ice hot và 500ml sữa tươi Meadow kem vào ca 1.5L.",
-    "Dùng máy đánh để trộn đều hỗn hợp.",
-    "Rót sữa Shika vào chai cất tủ lạnh."
-  ]
-},
-{
-  "tenMon": "Nước Đường Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Đường: 1500 gram",
-    "Nước: 1000 ml"
-  ],
-  "congThuc": [
-    "Cho 1500g đường và 1000ml nước vào máy xay.",
-    "Xay cho đến khi đường tan hoàn toàn.",
-    "Để nguội và đổ vào chai thủy tinh hoặc hũ kín.",
-    "Bảo quản trong tủ lạnh, có thể sử dụng trong vòng 1-2 tuần."
-  ]
-},
-{
-  "tenMon": "Creamy Cloudy Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Whipping Cream Anchor: 80 ml",
-    "Nước Đường Shika: 10 ml",
-    "Kem cream Ice hot: 20 ml",
-    "Hương chanh Rayners: 2 ml"
-  ],
-  "congThuc": [
-    "Cho 80ml whipping cream vào ly, dùng máy đánh tầm 10 giây cho whipping lên bong bóng.",
-    "Cho 10ml nước đường Shika và 2ml hương chanh Rayners vào.",
-    "Đánh cho đến khi hỗn hợp bông mịn.",
-    "Cho 20ml kem cream Ice hot vào, đánh tiếp tầm 10 giây cho hỗn hợp đồng nhất."
-  ]
-},
-{
-  "tenMon": "Trà olong Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Trà Olong: 60 gram",
-    "Nước: 1000 ml"
-  ],
-  "congThuc": [
-    "Cho 60g trà Olong vào túi lọc trà.",
-    "Đun sôi 1000ml nước.",
-    "Đổ nước nóng vào bình chứa trà, ngâm trong khoảng 15 phút.",
-    "Lọc lấy nước trà."
-  ]
-},
-{
-  "tenMon": "Trà Thái Đỏ Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Trà thái đỏ: 60 gram",
-    "Nước: 1000 ml"
-  ],
-  "congThuc": [
-    "Cho 60g trà thái đỏ vào túi lọc trà.",
-    "Đun sôi 1000ml nước.",
-    "Đổ nước nóng vào bình chứa trà, ngâm trong khoảng 15 phút.",
-    "Lọc lấy nước trà và để nguội hoặc sử dụng ngay."
-  ]
-},
-{
-  "tenMon": "Hoa Đậu Biếc Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Hoa đậu biếc: 5 gram",
-    "Hoa hồng khô (nhỏ): 1 gram",
-    "Nước: 1000 ml"
-  ],
-  "congThuc": [
-    "Cho 5g hoa đậu biếc và 1g hoa hồng khô vào túi lọc trà.",
-    "Đun sôi 1000ml nước.",
-    "Đổ nước nóng vào bình chứa hoa, ngâm trong khoảng 15 phút.",
-    "Lọc lấy nước hoa đậu biếc và để nguội hoặc sử dụng ngay."
-  ]
-},
-{
-  "tenMon": "Cacao Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Bột cacao LUAVE: 10 gram",
-    "Nước: 30 ml"
-  ],
-  "congThuc": [
-    "Cho 10g bột cacao vào ly.",
-    "Thêm 30ml nước nóng (khoảng 70-80°C) vào bột cacao.",
-    "Khuấy đều cho đến khi bột cacao tan hoàn toàn và hỗn hợp mịn.",
-    "Để nguội hoặc sử dụng ngay."
-  ]
-},
-{
-  "tenMon": "Trà Đào Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Trà đào túi lọc Cozy: 1 túi",
-    "Nước: 180 ml"
-  ],
-  "congThuc": [
-    "Cho 1 túi trà đào Cozy vào ly.",
-    "Đun sôi 180ml nước, sau đó để nguội xuống khoảng 90-95°C.",
-    "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
-    "Lấy túi trà ra và khuấy đều trước khi thưởng thức."
-  ]
-},
-{
-  "tenMon": "Trà Vải Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Trà vải túi lọc Cozy: 1 túi",
-    "Nước: 180 ml"
-  ],
-  "congThuc": [
-    "Cho 1 túi trà vải Cozy vào ly.",
-    "Đun sôi 180ml nước, sau đó để nguội xuống khoảng 90-95°C.",
-    "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
-    "Lấy túi trà ra và khuấy đều trước khi thưởng thức."
-  ]
-},
-{
-  "tenMon": "Trà Đào Combo Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Trà đào túi lọc Cozy: 1 túi",
-    "Cozy Icetea Đào: 1 túi",
-    "Nước: 180 ml"
-  ],
-  "congThuc": [
-    "Cho 1 túi trà đào Cozy vào ly.",
-    "Đun sôi 180ml nước, sau đó để nguội xuống khoảng 90-95°C.",
-    "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
-    "Lấy túi trà ra, thêm 1 túi Cozy Icetea Đào và khuấy đều trước khi thưởng thức."
-  ]
-},
-{
-  "tenMon": "Trà Vải Combo Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Trà vải túi lọc Cozy: 1 túi",
-    "Cozy Icetea Vải: 1 túi",
-    "Nước: 180 ml"
-  ],
-  "congThuc": [
-    "Cho 1 túi trà vải Cozy vào ly.",
-    "Đun sôi 180ml nước, sau đó để nguội xuống khoảng 90-95°C.",
-    "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
-    "Lấy túi trà ra, thêm 1 túi Cozy Icetea Vải và khuấy đều trước khi thưởng thức."
-  ]
-},
-{
-  "tenMon": "Foam Trứng Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Trứng: 2 quả",
-    "Sữa đặc ngôi sao: 10 ml",
-    "Syrup Vani Monin: 15 ml",
-    "Nước: 20 ml",
-    "Bột Trứng: 10 gram"
-  ],
-  "congThuc": [
-    "Tách lòng trắng 2 quả trứng ra khỏi lòng đỏ, cho lòng trắng vào bát.",
-    "Thêm 10ml sữa đặc ngôi sao, 15ml syrup vani Monin và 20ml nước vào lòng trắng trứng.",
-    "Dùng máy đánh trứng hoặc máy xay sinh tố để đánh hỗn hợp cho đến khi bông mịn.",
-    "Thêm 10g bột trứng vào hỗn hợp và tiếp tục đánh cho đến khi đạt độ bông mong muốn.",
-    "Để foam trứng vào tủ lạnh nếu không sử dụng ngay, có thể bảo quản trong 1-2 ngày."
-  ]
-},
-{
-  "tenMon": "Lá Dứa Shika",
-  "category": "Prepared",
-  "dungLuong": "",
-  "hinhAnh": "images/ingredient.png",
-  "nguyenLieu": [
-    "Bột lá dứa TD: 5 gram",
-    "Nước: 100 ml"
-  ],
-  "congThuc": [
-    "Cho 5g bột lá dứa vào ly.",
-    "Thêm 100ml nước nóng (khoảng 70-80°C) vào bột lá dứa.",
-    "Khuấy đều cho đến khi bột lá dứa tan hoàn toàn và hỗn hợp mịn.",
-    "Để nguội hoặc sử dụng ngay."
-  ]
-}
+  },
+  {
+    "tenMon": "Machi Peach",
+    "category": "Milk Tea",
+    "dungLuong": "500ml",
+    "hinhAnh": "./Source ảnh món/6. Milk tea/Machi Peach.jpg",
+    "nguyenLieu": [
+      "🍑 Trà Đào túi lọc Cozy: 1 túi",
+      "🍑 Mứt đào Berino: 30ml",
+      "🍯 Nước Đường Shika: 20ml",
+      "🧂 Milk Foam Muối Shika: 30ml",
+      "🧊 Đá viên: vừa đủ"
+    ],
+    "congThuc": [
+      "Pha trà túi lọc Cozy (1 túi) với 180ml nước nóng trong 5 phút và để nguội trong ly 200ml",
+      "Đánh 30ml foam muối shika",
+      "Cho 30ml mứt đào và 20ml nước đường Shika vào ly 500ml, khuấy đều.",
+      "Thêm đá viên đầy ly 500ml",
+      "Rót trà đào Shika vào ly",
+      "Cho 30ml milk foam muối Shika lên trên bề mặt ly, trải đều."
+    ]
+  },
+  {
+    "tenMon": "Rose N jujube longan",
+    "note": "Hoa hồng táo đỏ long nhãn",
+    "category": "Iced Tea",
+    "dungLuong": "500ml",
+    "hinhAnh": "./Source ảnh món/3. Iced Tea/Rose N jujube longan.jpg",
+    "nguyenLieu": [
+      "🌹 Mứt hoa hồng: 20ml",
+      "🍎 Mứt táo đỏ long nhãn: 20ml",
+      "🍯 Nước Đường Shika: 20ml",
+      "🍵 Hồng trà Shika: 100ml",
+      "💧 Nước: 80ml",
+      "🧊 Đá viên: vừa đủ",
+      "🌹 Cánh hoa hồng hoặc lát táo đỏ/long nhãn: trang trí"
+    ],
+    "congThuc": [
+      "Cho 20ml mứt hoa hồng, 20ml mứt táo đỏ long nhãn và 20ml nước đường Shika vào ly 500ml.",
+      "Rót 100ml hồng trà Shika và 80ml nước vào ly và khuấy đều.",
+      "Thêm đá viên vào đầy ly để làm lạnh đồ uống (khoảng 150g đá viên cho ly 500ml).",
+      "Trang trí với cánh hoa hồng khô."
+    ]
+  },
+  {
+    "tenMon": "Matcha Berry",
+    "category": "Matcha",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/5. Matcha/Matcha Berry.jpg",
+    "nguyenLieu": [
+      "🍵 Bột matcha Cozy: 1.5g",
+      "🍵 Bột matcha Uji: 1.5g",
+      "🥛 Sữa Shika: 100ml",
+      "🍓 Mứt trái cây hỗn hợp Osterberg: 30ml",
+      "🧊 Đá viên: vừa đủ"
+    ],
+    "congThuc": [
+      "Cho 1.5g bột matcha Cozy và 1.5g bột matcha Uji vào chén, thêm khoảng 30ml nước nóng (70–80°C) và đánh đều cho tan và nổi bọt mịn.",
+      "Thêm 30ml mứt trái cây hỗn hợp Osterberg vào ly 350ml.",
+      "Cho đá viên vào đầy ly 350ml.",
+      "Cho 100ml sữa Shika vào ly.",
+      "Rót từ từ matcha đã đánh lên trên."
+    ]
+  },
+  {
+    "tenMon": "Matcha Coco",
+    "category": "Matcha",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/5. Matcha/Matcha Coco.jpg",
+    "nguyenLieu": [
+      "🥥 Nước dừa: 100ml",
+      "🍵 Bột matcha Uji: 1.5g",
+      "🍵 Bột matcha Cozy: 1.5g",
+      "🍦 Whipping cream Anchor: 20ml",
+      "🥛 Sữa đặc Ngôi Sao: 20ml",
+      "🥥 Nước cốt dừa Wonderfarm: 20ml",
+      "🧊 Đá viên: vừa đủ"
+    ],
+    "congThuc": [
+      "Cho 20ml whipping cream vào ly, dùng máy đánh bông lên",
+      "Cho lần lượt  20ml sữa đặc và 20ml cốt dừa vào đánh cho đến khi mịn",
+      "Cho 1.5g bột matcha Uji và 1.5g bột matcha Cozy vào ly và đánh đều cho bột matcha hòa tan.",
+      "Cho 100ml nước dừa vào ly 350ml.",
+      "Thêm đá viên vào đầy ly 350ml.",
+      "Rót từ từ hỗn hợp matcha đã đánh lên trên lớp nước dừa và đá.",
+      "Trang trí với dừa sấy khô."
+    ]
+  },
+  {
+    "tenMon": "Coconut Cream Cafe",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/2. Shika Coffee/Coconut Cream Cafe.jpg",
+    "nguyenLieu": [
+      "☕ Cà phê Arabica - H - Medium: 18g",
+      "🥥 Nước cốt dừa Wonderfarm: 30ml",
+      "🥛 Sữa đặc Ngôi Sao: 30ml",
+      "🥛 Sữa Shika: 70ml",
+      "🧊 Đá viên: vừa đủ"
+    ],
+    "congThuc": [
+      "Cho 30ml sữa đặc Ngôi Sao, 30ml nước cốt dừa Wonderfarm và 70ml sữa Shika vào ly, khuấy đều.",
+      "Cho đá viên vào đầy ly (khoảng 150g).",
+      "Pha 18g cà phê Arabica - H - Medium và rót lên trên lớp sữa dừa."
+    ]
+  },
+  {
+    "tenMon": "Creamy Cloudy",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/2. Shika Coffee/Creamy Cloudy.jpg",
+    "nguyenLieu": [
+      "☕ Cà phê Arabica - H - Medium: 18g",
+      "🥛 Sữa đặc Ngôi Sao: 20ml",
+      "☁️ Creamy Cloudy Shika: 122ml"
+    ],
+    "congThuc": [
+      "Cho 20ml sữa đặc Ngôi Sao vào ly 350ml.",
+      "Pha 18g cà phê Arabica - H - Medium và rót vào ly.",
+      "Khuấy đều, sau đó cho đá vào ly (khoảng 150g).",
+      "Thêm 122ml Creamy Cloudy Shika lên trên.",
+      "Trang trí với bột cacao (1g)."
+    ]
+  },
+  {
+    "tenMon": "Americano",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/2. Shika Coffee/Americano.jpg",
+    "nguyenLieu": [
+      "☕ Cà phê Arabica - H - Medium: 18g"
+    ],
+    "congThuc": [
+      "Rót 100ml nước lọc vào ly 350ml.",
+      "Thêm đá viên vào ly nước lọc (khoảng 150g).",
+      "Trích xuất 18g cà phê Arabica - H - Medium bằng máy pha cà phê.",
+      "Thêm cà phê đã pha vào ly nước lọc."
+    ]
+  },
+  {
+    "tenMon": "Espresso",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/2. Shika Coffee/Espresso.jpg",
+    "nguyenLieu": [
+      "☕ Cà phê Arabica - H - Medium: 18g"
+    ],
+    "congThuc": [
+      "Trích xuất 18g cà phê Arabica - H - Medium bằng máy pha cà phê hoặc phin.",
+      "Đính kèm 1 tách đường 20ml."
+    ]
+  },
+  {
+    "tenMon": "Soul",
+    "category": "Shika Coffee",
+    "dungLuong": "170ml",
+    "hinhAnh": "./Source ảnh món/2. Shika Coffee/Soul.jpg",
+    "nguyenLieu": [
+      "☕ Cà phê Arabica - H - Medium: 18g",
+      "🥛 Sữa đặc Ngôi Sao: 40ml",
+      "🥛 Whipping Cream Anchor: 40ml"
+    ],
+    "congThuc": [
+      "Cho 40ml sữa đặc Ngôi Sao và 40ml whipping cream vào ly 170ml.",
+      "Pha 18g cà phê Arabica - H - Medium và rót vào ly.",
+      "Khuấy nhẹ để hòa quyện hương vị.",
+      "Thêm 1 ít đá viên viên (khoảng 80g)."
+    ]
+  },
+  {
+    "tenMon": "Pandan Fusion",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/2. Shika Coffee/Pandan Fushion.jpg",
+    "nguyenLieu": [
+      "☕ Cà phê Arabica - H - Medium: 18g",
+      "🥛 Sữa đặc Ngôi Sao: 30ml",
+      "🥛 Sữa tươi Meadow kem: 70ml",
+      "🌿 Lá Dứa Shika: 5ml",
+      "🍍 Syrup Dứa Monin: 5ml",
+      "🍦 Kem cream Ice Hot: 5ml"
+    ],
+    "congThuc": [
+      "Cho 30ml sữa đặc, 5ml lá dứa Shika, 5ml syrup dứa Monin và 5ml kem cream Ice Hot vào bình lắc, khuấy đều.",
+      "Rót hỗn hợp sữa dừa vào ly 350ml.",
+      "Cho đá viên vào đầy ly (khoảng 150g).",
+      "Rót 70ml sữa tươi Meadow kem vào ly.",
+      "Pha 18g cà phê Arabica - H - Medium và Robusta - H - Medium, rót lên trên lớp sữa."
+    ]
+  },
+  {
+    "tenMon": "Bạc Xỉu",
+    "category": "Traditional Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/1. Traditional Coffee/Bạc Xỉu.jpg",
+    "nguyenLieu": [
+      "☕ Cà phê Arabica - H - Medium: 4g",
+      "☕ Cà phê Robusta - H - Medium: 14g",
+      "🥛 Sữa đặc Ngôi Sao: 30ml",
+      "🥛 Sữa tươi Meadow kem: 70ml"
+    ],
+    "congThuc": [
+      "Cho 30ml sữa đặc Ngôi Sao và 70ml sữa tươi Meadow kem vào ly.",
+      "Khuấy nhẹ để hòa quyện hương vị.",
+      "Thêm đá viên (khoảng 150g).",
+      "Pha 4g cà phê Arabica - H - Medium và 14g Robusta - H - Medium, rót vào ly."
+    ]
+  },
+  {
+    "tenMon": "Nâu",
+    "category": "Traditional Coffee",
+    "dungLuong": "200ml",
+    "hinhAnh": "./Source ảnh món/1. Traditional Coffee/Nâu.jpg",
+    "nguyenLieu": [
+      "☕ Cà phê Arabica - H - Medium: 4g",
+      "☕ Cà phê Robusta - H - Medium: 14g",
+      "🥛 Sữa đặc Ngôi Sao: 20ml"
+    ],
+    "congThuc": [
+      "Cho 20ml sữa đặc Ngôi Sao vào ly 200ml.",
+      "Pha 4g cà phê Arabica - H - Medium và 14g Robusta - H - Medium, rót vào ly.",
+      "Khuấy nhẹ để hòa quyện hương vị.",
+      "Thêm đá viên nếu muốn uống lạnh (khoảng 100g)."
+    ]
+  },
+  {
+    "tenMon": "Đen",
+    "category": "Traditional Coffee",
+    "dungLuong": "200ml",
+    "hinhAnh": "./Source ảnh món/1. Traditional Coffee/Đen.jpg",
+    "nguyenLieu": [
+      "☕ Cà phê Arabica - H - Medium: 4g",
+      "☕ Cà phê Robusta - H - Medium: 14g",
+      "🍬 Đường: 10ml",
+      "🍬 Tách đường: 10ml"
+    ],
+    "congThuc": [
+      "Pha 4g cà phê Arabica - H - Medium và 14g Robusta - H - Medium bằng máy pha cà phê hoặc phin.",
+      "Rót cà phê vào ly 200ml.",
+      "Thêm 10ml đường vào ly, khuấy đều.",
+      "Thêm đá viên vừa đủ (khoảng 100g).",
+      "Phục vụ kèm thêm 1 tách đường nhỏ 10ml để khách có thể điều chỉnh độ ngọt theo ý thích."
+    ]
+  },
+  {
+    "tenMon": "Cà Phê Muối",
+    "category": "Traditional Coffee",
+    "dungLuong": "200ml",
+    "hinhAnh": "./Source ảnh món/1. Traditional Coffee/Cà Phê Muối.jpg",
+    "nguyenLieu": [
+      "☕ Cà phê Arabica - H - Medium: 4g",
+      "☕ Cà phê Robusta - H - Medium: 14g",
+      "🥛 Sữa đặc Ngôi Sao: 20ml",
+      "🧂 Milk Foam Muối Shika: 30ml"
+    ],
+    "congThuc": [
+      "Cho 20ml sữa đặc Ngôi Sao vào ly 350ml.",
+      "Pha 4g cà phê Arabica - H - Medium và 14g Robusta - H - Medium, rót vào ly.",
+      "Khuấy nhẹ để hòa quyện hương vị.",
+      "Thêm đá viên (khoảng 150g).",
+      "Thêm 30ml milk foam muối Shika lên trên bề mặt cà phê."
+    ]
+  },
+  {
+    "tenMon": "Cacao Muối",
+    "category": "Cacao",
+    "dungLuong": "200ml",
+    "hinhAnh": "./Source ảnh món/4. Cacao/Cacao Muối.jpg",
+    "nguyenLieu": [
+      "🍫 Bột cacao LUAVE: 10g",
+      "🥛 Sữa đặc Ngôi Sao: 20ml",
+      "🧂 Milk Foam Muối Shika: 30ml"
+    ],
+    "congThuc": [
+      "Đánh 30ml foam muối Shika.",
+      "Cho 10g bột cacao LUAVE và 20ml sữa đặc Ngôi Sao vào ly 350ml, khuấy đều cho tan.",
+      "Thêm 30ml milk foam muối Shika lên trên bề mặt cacao.",
+      "Thêm đá viên nếu muốn uống lạnh (khoảng 150g).",
+      "Trang trí với 1g bột cacao rắc lên trên milk foam."
+    ]
+  },
+  {
+    "tenMon": "Coco Mango",
+    "category": "Non-Caffein",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/7. Non-caffein/Coco Mango.jpg",
+    "nguyenLieu": [
+      "🥭 Mứt xoài Berino: 10ml",
+      "🥭 Sinh tố xoài: 20ml",
+      "🍶 Whipping Cream Anchor: 20ml",
+      "🥥 Nước cốt dừa Wonderfarm: 30ml",
+      "🥛 Sữa Shika: 50ml",
+      "🧊 Đá viên: vừa đủ"
+    ],
+    "congThuc": [
+      "Cho 10ml mứt xoài Berino và 20ml sinh tố xoài Golden Farm xuống đáy ly 350ml.",
+      "Trong shaker, cho 20ml whipping cream, 30ml nước cốt dừa Wonderfarm và 50ml sữa Shika, khuấy đều.",
+      "Cho đá viên vào ly đã có mứt xoài (khoảng 150g).",
+      "Rót hỗn hợp vào ly.",
+      "Trang trí thêm dừa sấy (2g)."
+    ]
+  },
+  {
+    "tenMon": "Lychee Butterfly",
+    "note": "Trà vải hoa đậu biếc",
+    "category": "Iced Tea",
+    "dungLuong": "500ml",
+    "hinhAnh": "./Source ảnh món/3. Iced Tea/Lychee Butterfly.jpg",
+    "nguyenLieu": [
+      "🍑 Mứt vải Osterberg: 40ml",
+      "🍯 Nước Đường Shika: 20ml",
+      "💧 Nước lọc: 50ml",
+      "🌸 Hoa đậu biếc: 100ml"
+    ],
+    "congThuc": [
+      "Cho 40ml mứt vải, 20ml nước đường và 50ml nước lọc vào ly, khuấy đều.",
+      "Thêm đá viên vào đầy ly (khoảng 200g).",
+      "Rót từ từ 100ml hoa đậu biếc vào ly để tạo hiệu ứng phân tầng.",
+      "Trang trí với cánh hoa hồng trên mặt ly (2g)."
+    ]
+  },
+  {
+    "tenMon": "Green meets red",
+    "category": "Matcha",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/5. Matcha/Green meets red.jpg",
+    "nguyenLieu": [
+      "🍵 Bột matcha Cozy: 1.5g",
+      "🍵 Bột matcha Uji: 1.5g",
+      "🍹 Trà Thái Đỏ Shika: 50ml",
+      "🥛 Sữa Shika: 100ml",
+      "🧊 Đá viên: vừa đủ"
+    ],
+    "congThuc": [
+      "Đánh tan 1.5g bột matcha Cozy và 1.5g bột matcha Uji với 30ml nước nóng (70–80°C) cho mịn và nổi bọt.",
+      "Cho 100ml sữa Shika và 50ml trà Thái Đỏ Shika vào shaker, khuấy đều.",
+      "Rót hỗn hợp sữa – trà Thái Đỏ vào ly 350ml.",
+      "Thêm đá viên vừa đủ (khoảng 150g).",
+      "Rót từ từ matcha đã đánh lên trên cùng để tạo lớp màu xanh nổi bật."
+    ]
+  },
+  {
+    "tenMon": "Red Thai Cha Milk Tea",
+    "category": "Milk Tea",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/6. Milk tea/Red Thai Cha Milk Tea.jpg",
+    "nguyenLieu": [
+      "🍹 Trà Thái Đỏ Shika: 150ml",
+      "🥛 Sữa Shika: 100ml",
+      "🔮 Trân châu: vừa đủ",
+      "🧊 Đá viên: vừa đủ"
+    ],
+    "congThuc": [
+      "Cho 30g trân châu vào đáy ly 350ml.",
+      "Thêm đá viên vừa đủ vào ly (khoảng 150g).",
+      "Rót 100ml sữa Shika vào ly.",
+      "Rót tiếp 150ml trà Thái Đỏ Shika lên trên.",
+      "Khuấy nhẹ trước khi thưởng thức."
+    ]
+  },
+  {
+    "tenMon": "Jujube Longan",
+    "category": "Non-Caffein",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/7. Non-caffein/Jujube Longan.jpg",
+    "nguyenLieu": [
+      "🍎 Mứt táo đỏ long nhãn: 20ml",
+      "🥛 Sữa tươi Meadow kem: 100ml",
+      "🍯 Nước Đường Shika: 10ml"
+    ],
+    "congThuc": [
+      "Cho 20ml mứt và 10ml nước đường vào ly.",
+      "Thêm 100ml sữa tươi vào ly, khuấy đều.",
+      "Thêm đá viên vào đầy ly (khoảng 150g)."
+    ]
+  },
+  {
+    "tenMon": "Bana Coco Cafe",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/2. Shika Coffee/Bana Coco Cafe.jpg",
+    "nguyenLieu": [
+      "🍌 Mứt chuối: 10ml",
+      "🥥 Nước cốt dừa Wonderfarm: 30ml",
+      "☕ Cà phê Arabica - H - Medium: 18g",
+      "🥛 Sữa đặc Ngôi Sao: 20ml",
+      "🍶 Whipping Cream Anchor: 20ml",
+      "🥛 Sữa Shika: 50ml"
+    ],
+    "congThuc": [
+      "Cho 10ml mứt chuối xuống đáy ly 350ml và 20ml sữa đặc sau đó khuấy đều.",
+      "Cho 20ml whipping cream, 30ml cốt dừa, 50ml sữa tươi khuấy đều trong shaker.",
+      "Cho đá viên vào ly đã có mứt chuối (khoảng 150g).",
+      "Rót hỗn hợp sữa dừa vào ly.",
+      "Pha 18g cà phê Arabica - H - Medium và rót lên trên lớp sữa."
+    ]
+  },
+  {
+    "tenMon": "Mật ong cam vàng",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/2. Shika Coffee/Mật ong cam vàng.jpg",
+    "nguyenLieu": [
+      "Cam tươi: 50ml",
+      "Mật ong: 20ml",
+      "Cold brew: 100ml"
+    ],
+    "congThuc": [
+      "Cho 20ml mật ong để dưới đáy ly.",
+      "Cho 50ml nước cam vào ly.",
+      "Thêm đá viên vào đầy ly (khoảng 150g).",
+      "Rót 100ml cold brew vào ly.",
+      "Trang trí với lát cam khô trên miệng ly (1 lát)."
+    ]
+  },
+  {
+    "tenMon": "Noon Mirage",
+    "category": "Iced Tea",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/3. Iced Tea/Noon Mirage.jpg",
+    "nguyenLieu": [
+      "🥭 Mứt xoài Berino: 20ml",
+      "🥭 Sinh tố xoài: 20ml",
+      "🍍 Mứt thơm Berino: 20ml",
+      "🍯 Nước đường Shika: 30ml",
+      "🍵 Trà ô long Shika: 100ml",
+      "🍋 Cốt chanh tươi: 5ml",
+      "🥥 Syrup dừa: 10ml",
+      "🧂 Muối hồng: 1g"
+    ],
+    "congThuc": [
+      "Chà 5ml nước cốt chanh quanh miệng ly, sau đó chà 0.5g muối hồng dùng để trang trí.",
+      "Cho 20ml mứt xoài, 20ml sinh tố xoài, 20ml mứt thơm, 30ml nước đường, 10ml syrup dừa, 0.5g muối hồng và 5ml cốt chanh tươi vào ly, khuấy đều.",
+      "Cho đá viên vào ly đã trang trí muối hồng (khoảng 150g).",
+      "Thêm 100ml trà Olong shika + 80ml nước lọc, khuấy nhẹ và phục vụ."
+    ]
+  },
+  {
+    "tenMon": "Trà Sữa Gạo Rang",
+    "category": "Milk Tea",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/6. Milk tea/Trà Sữa Gạo Rang.jpg",
+    "nguyenLieu": [
+      "Trà gạo rang Shika: 150ml",
+      "🍯 Nước Đường Shika: 20ml",
+      "🧂 Milk Foam Muối Shika: 30ml"
+    ],
+    "congThuc": [
+      "Đánh 30ml foam muối Shika.",
+      "Cho 20ml nước đường Shika vào ly 350ml.",
+      "Thêm 150ml trà gạo rang Shika vào ly, khuấy nhẹ.",
+      "Cho đá viên vào đầy ly (khoảng 150g).",
+      "Thêm 30ml milk foam muối Shika lên trên bề mặt trà sữa.",
+      "Trang trí với 2g hạt gạo rang hoặc bột trà gạo rang nếu muốn."
+    ]
+  },
+  {
+    "tenMon": "Olong Milk Tea",
+    "category": "Milk Tea",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/6. Milk tea/Olong Milk Tea.jpg",
+    "nguyenLieu": [
+      "🍵 Trà ô long Shika: 150ml",
+      "🥛 Sữa Shika: 100ml",
+      "🔮 Trân châu: vừa đủ"
+    ],
+    "congThuc": [
+      "Cho 30g trân châu vào đáy ly 350ml.",
+      "Thêm đá viên vừa đủ vào ly (khoảng 150g).",
+      "Rót 100ml sữa Shika vào ly, thêm 150ml trà vào ly.",
+      "Khuấy nhẹ trước khi thưởng thức."
+    ]
+  },
+  {
+    "tenMon": "Oreo Milk Tea",
+    "category": "Milk Tea",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/6. Milk tea/Oreo Milk Tea.jpg",
+    "nguyenLieu": [
+      "🍪 Bánh Oreo: 2 cái",
+      "🥛 Sữa Shika: 100ml",
+      "🔮 Trân châu: vừa đủ",
+      "🍵 Trà ô long Shika: 150ml"
+    ],
+    "congThuc": [
+      "Dằm nhuyễn 1 chiếc bánh Oreo và cho vào đáy ly 350ml.",
+      "Cho 30g trân châu vào ly.",
+      "Thêm đá viên vừa đủ vào ly (khoảng 150g).",
+      "Rót 100ml sữa Shika và 150ml trà ô long Shika vào ly, khuấy nhẹ để hòa quyện.",
+      "Đặt 1 chiếc bánh Oreo nguyên lên trên bề mặt trà sữa để trang trí."
+    ]
+  },
+  {
+    "tenMon": "Cacao Bana",
+    "category": "Cacao",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/4. Cacao/Cacao Bana.jpg",
+    "nguyenLieu": [
+      "🍫 Cacao Shika: 30ml",
+      "🍌 Mứt chuối: 10g",
+      "🥛 Sữa đặc Ngôi Sao: 20ml",
+      "🥛 Sữa tươi Meadow kem: 70ml",
+      "🧊 Đá viên: vừa đủ"
+    ],
+    "congThuc": [
+      "Cho 10g mứt chuối xuống đáy ly 350ml.",
+      "Trong shaker, cho 30ml cacao Shika, 20ml sữa đặc và 70ml sữa tươi Meadow kem, khuấy hoặc lắc đều.",
+      "Cho đá viên vào ly đã có mứt chuối (khoảng 150g).",
+      "Rót hỗn hợp cacao sữa vào ly.",
+      "Trang trí thêm lát chuối hoặc 1g bột cacao nếu muốn."
+    ]
+  },
+  {
+    "tenMon": "Coco Bana",
+    "category": "Non-Caffein",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/7. Non-caffein/Coco Bana.jpg",
+    "nguyenLieu": [
+      "🍌 Mứt chuối: 10g",
+      "🥛 Sữa đặc Ngôi Sao: 20ml",
+      "🥥 Nước cốt dừa Wonderfarm: 30ml",
+      "🥛 Sữa Shika: 50ml",
+      "🍶 Whipping Cream Anchor: 20ml",
+      "🧊 Đá viên: vừa đủ"
+    ],
+    "congThuc": [
+      "Cho 10g mứt chuối xuống đáy ly 350ml.",
+      "Trong shaker, cho 20ml whipping cream, 20ml sữa đặc và 30ml nước cốt dừa Wonderfarm, khuấy đều.",
+      "Cho đá viên vào ly đã có mứt chuối (khoảng 150g).",
+      "Rót hỗn hợp sữa dừa vào ly.",
+      "Trang trí thêm 2g dừa sấy."
+    ]
+  },
+  {
+    "tenMon": "Coco Brew - Option 1 (Cold Brew - vị nhẹ nhàng hơn)",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/2. Shika Coffee/Coco Brew.jpg",
+    "nguyenLieu": [
+      "🍯 Nước Đường Shika: 10ml",
+      "Cold brew: 100ml",
+      "🥥 Nước dừa: 100ml"
+    ],
+    "congThuc": [
+      "Cho 10ml nước đường Shika vào ly 350ml.",
+      "Thêm 100ml nước dừa vào ly, khuấy nhẹ.",
+      "Cho đá viên vào đầy ly (khoảng 150g).",
+      "Rót 100ml cold brew vào ly.",
+      "Trang trí với 2g vụn dừa sấy khô."
+    ]
+  },
+  {
+    "tenMon": "Coco Brew - Option 2 (Espesso - vị đậm đà hơn)",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/2. Shika Coffee/Coco Brew.jpg",
+    "nguyenLieu": [
+      "🍯 Nước Đường Shika: 10ml",
+      "Esspresso: 100ml",
+      "🥥 Nước dừa: 100ml"
+    ],
+    "congThuc": [
+      "Cho 10ml nước đường Shika vào ly 350ml.",
+      "Thêm 100ml nước dừa vào ly, khuấy nhẹ.",
+      "Cho đá viên vào đầy ly (khoảng 150g).",
+      "Rót 100ml Espresso vào ly.",
+      "Trang trí với 2g vụn dừa sấy khô."
+    ]
+  },
+  {
+    "tenMon": "Milk Foam ShiKa",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Sữa đặc ngôi sao: 10 ml",
+      "Kem cream Ice hot: 50 ml"
+    ],
+    "congThuc": [
+      "Cho 10ml sữa đặc ngôi sao và 50ml kem cream Ice hot vào ly.",
+      "Đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn."
+    ]
+  },
+  {
+    "tenMon": "Milk Foam Muối Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Sữa đặc ngôi sao: 10 ml",
+      "Kem cream Ice hot: 50 ml",
+      "Muối Hồng: 1 gram"
+    ],
+    "congThuc": [
+      "Cho 10ml sữa đặc ngôi sao, 50ml kem cream Ice hot và 1g muối hồng vào ly.",
+      "Đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn."
+    ]
+  },
+  {
+    "tenMon": "Sữa Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Sữa đặc ngôi sao: 400 ml",
+      "Kem cream Ice hot: 100 ml",
+      "Sữa tươi Meadow kem: 500 ml"
+    ],
+    "congThuc": [
+      "Cho 400ml sữa đặc ngôi sao, 100ml kem cream Ice hot và 500ml sữa tươi Meadow kem vào ca 1.5L.",
+      "Dùng máy đánh để trộn đều hỗn hợp.",
+      "Rót sữa Shika vào chai cất tủ lạnh."
+    ]
+  },
+  {
+    "tenMon": "Nước Đường Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Đường: 1500 gram",
+      "Nước: 1000 ml"
+    ],
+    "congThuc": [
+      "Cho 1500g đường và 1000ml nước vào máy xay.",
+      "Xay cho đến khi đường tan hoàn toàn.",
+      "Để nguội và đổ vào chai thủy tinh hoặc hũ kín.",
+      "Bảo quản trong tủ lạnh, có thể sử dụng trong vòng 1-2 tuần."
+    ]
+  },
+  {
+    "tenMon": "Creamy Cloudy Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Whipping Cream Anchor: 80 ml",
+      "Nước Đường Shika: 10 ml",
+      "Kem cream Ice hot: 20 ml",
+      "Hương chanh Rayners: 2 ml"
+    ],
+    "congThuc": [
+      "Cho 80ml whipping cream vào ly, dùng máy đánh tầm 10 giây cho whipping lên bong bóng.",
+      "Cho 10ml nước đường Shika và 2ml hương chanh Rayners vào.",
+      "Đánh cho đến khi hỗn hợp bông mịn.",
+      "Cho 20ml kem cream Ice hot vào, đánh tiếp tầm 10 giây cho hỗn hợp đồng nhất."
+    ]
+  },
+  {
+    "tenMon": "Trà olong Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Trà Olong: 60 gram",
+      "Nước: 1000 ml"
+    ],
+    "congThuc": [
+      "Cho 60g trà Olong vào túi lọc trà.",
+      "Đun sôi 1000ml nước.",
+      "Đổ nước nóng vào bình chứa trà, ngâm trong khoảng 15 phút.",
+      "Lọc lấy nước trà."
+    ]
+  },
+  {
+    "tenMon": "Trà Thái Đỏ Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Trà thái đỏ: 60 gram",
+      "Nước: 1000 ml"
+    ],
+    "congThuc": [
+      "Cho 60g trà thái đỏ vào túi lọc trà.",
+      "Đun sôi 1000ml nước.",
+      "Đổ nước nóng vào bình chứa trà, ngâm trong khoảng 15 phút.",
+      "Lọc lấy nước trà và để nguội hoặc sử dụng ngay."
+    ]
+  },
+  {
+    "tenMon": "Hoa Đậu Biếc Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Hoa đậu biếc: 5 gram",
+      "Hoa hồng khô (nhỏ): 1 gram",
+      "Nước: 1000 ml"
+    ],
+    "congThuc": [
+      "Cho 5g hoa đậu biếc và 1g hoa hồng khô vào túi lọc trà.",
+      "Đun sôi 1000ml nước.",
+      "Đổ nước nóng vào bình chứa hoa, ngâm trong khoảng 15 phút.",
+      "Lọc lấy nước hoa đậu biếc và để nguội hoặc sử dụng ngay."
+    ]
+  },
+  {
+    "tenMon": "Cacao Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Bột cacao LUAVE: 10 gram",
+      "Nước: 30 ml"
+    ],
+    "congThuc": [
+      "Cho 10g bột cacao vào ly.",
+      "Thêm 30ml nước nóng (khoảng 70-80°C) vào bột cacao.",
+      "Khuấy đều cho đến khi bột cacao tan hoàn toàn và hỗn hợp mịn.",
+      "Để nguội hoặc sử dụng ngay."
+    ]
+  },
+  {
+    "tenMon": "Trà Đào Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Trà đào túi lọc Cozy: 1 túi",
+      "Nước: 180 ml"
+    ],
+    "congThuc": [
+      "Cho 1 túi trà đào Cozy vào ly.",
+      "Đun sôi 180ml nước, sau đó để nguội xuống khoảng 90-95°C.",
+      "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
+      "Lấy túi trà ra và khuấy đều trước khi thưởng thức."
+    ]
+  },
+  {
+    "tenMon": "Trà Vải Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Trà vải túi lọc Cozy: 1 túi",
+      "Nước: 180 ml"
+    ],
+    "congThuc": [
+      "Cho 1 túi trà vải Cozy vào ly.",
+      "Đun sôi 180ml nước, sau đó để nguội xuống khoảng 90-95°C.",
+      "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
+      "Lấy túi trà ra và khuấy đều trước khi thưởng thức."
+    ]
+  },
+  {
+    "tenMon": "Trà Đào Combo Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Trà đào túi lọc Cozy: 1 túi",
+      "Cozy Icetea Đào: 1 túi",
+      "Nước: 180 ml"
+    ],
+    "congThuc": [
+      "Cho 1 túi trà đào Cozy vào ly.",
+      "Đun sôi 180ml nước, sau đó để nguội xuống khoảng 90-95°C.",
+      "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
+      "Lấy túi trà ra, thêm 1 túi Cozy Icetea Đào và khuấy đều trước khi thưởng thức."
+    ]
+  },
+  {
+    "tenMon": "Trà Vải Combo Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Trà vải túi lọc Cozy: 1 túi",
+      "Cozy Icetea Vải: 1 túi",
+      "Nước: 180 ml"
+    ],
+    "congThuc": [
+      "Cho 1 túi trà vải Cozy vào ly.",
+      "Đun sôi 180ml nước, sau đó để nguội xuống khoảng 90-95°C.",
+      "Đổ nước nóng vào ly chứa túi trà, ngâm trong khoảng 3-5 phút.",
+      "Lấy túi trà ra, thêm 1 túi Cozy Icetea Vải và khuấy đều trước khi thưởng thức."
+    ]
+  },
+  {
+    "tenMon": "Foam Trứng Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Trứng: 2 quả",
+      "Sữa đặc ngôi sao: 10 ml",
+      "Syrup Vani Monin: 15 ml",
+      "Nước: 20 ml",
+      "Bột Trứng: 10 gram"
+    ],
+    "congThuc": [
+      "Tách lòng trắng 2 quả trứng ra khỏi lòng đỏ, cho lòng trắng vào bát.",
+      "Thêm 10ml sữa đặc ngôi sao, 15ml syrup vani Monin và 20ml nước vào lòng trắng trứng.",
+      "Dùng máy đánh trứng hoặc máy xay sinh tố để đánh hỗn hợp cho đến khi bông mịn.",
+      "Thêm 10g bột trứng vào hỗn hợp và tiếp tục đánh cho đến khi đạt độ bông mong muốn.",
+      "Để foam trứng vào tủ lạnh nếu không sử dụng ngay, có thể bảo quản trong 1-2 ngày."
+    ]
+  },
+  {
+    "tenMon": "Lá Dứa Shika",
+    "category": "Prepared",
+    "dungLuong": "",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Bột lá dứa TD: 5 gram",
+      "Nước: 100 ml"
+    ],
+    "congThuc": [
+      "Cho 5g bột lá dứa vào ly.",
+      "Thêm 100ml nước nóng (khoảng 70-80°C) vào bột lá dứa.",
+      "Khuấy đều cho đến khi bột lá dứa tan hoàn toàn và hỗn hợp mịn.",
+      "Để nguội hoặc sử dụng ngay."
+    ]
+  }
 ]
