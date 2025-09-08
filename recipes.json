@@ -493,7 +493,7 @@
   {
     "tenMon": "Red Thai Cha Milk Tea",
     "category": "Milk Tea",
-    "dungLuong": "350ml",
+    "dungLuong": "500ml",
     "hinhAnh": "./Source ảnh món/6. Milk tea/Red Thai Cha Milk Tea.jpg",
     "nguyenLieu": [
       "🍹 Trà Thái Đỏ Shika: 150ml",
@@ -567,7 +567,7 @@
   {
     "tenMon": "Noon Mirage",
     "category": "Iced Tea",
-    "dungLuong": "350ml",
+    "dungLuong": "500ml",
     "hinhAnh": "./Source ảnh món/3. Iced Tea/Noon Mirage.jpg",
     "nguyenLieu": [
       "🥭 Mứt xoài Berino: 20ml",
@@ -589,7 +589,7 @@
   {
     "tenMon": "Trà Sữa Gạo Rang",
     "category": "Milk Tea",
-    "dungLuong": "350ml",
+    "dungLuong": "500ml",
     "hinhAnh": "./Source ảnh món/6. Milk tea/Trà Sữa Gạo Rang.jpg",
     "nguyenLieu": [
       "Trà gạo rang Shika: 150ml",
@@ -606,9 +606,30 @@
     ]
   },
   {
+    "tenMon": "Trà Sữa Vani Hoa Hồng",
+    "category": "Milk Tea",
+    "dungLuong": "500ml",
+    "hinhAnh": "./Source ảnh món/6. Milk tea/Trà Sữa Vani Hoa Hong.jpg",
+    "nguyenLieu": [
+      "🌺 Mứt hoa hồng: 10ml",
+      "🌹 Siro hoa hồng Monin: 5ml",
+      "🍦 Siro vani Monin: 5ml",
+      "🍵 Trà ô long Shika: 150ml",
+      "🧂 Sữa Shika: 80ml"
+    ],
+    "congThuc": [
+      "Đánh 30ml foam muối Shika.",
+      "Cho 20ml nước đường Shika vào ly 350ml.",
+      "Thêm 150ml trà gạo rang Shika vào ly, khuấy nhẹ.",
+      "Cho đá viên vào đầy ly (khoảng 150g).",
+      "Thêm 30ml milk foam muối Shika lên trên bề mặt trà sữa.",
+      "Trang trí với 2g hạt gạo rang hoặc bột trà gạo rang nếu muốn."
+    ]
+  },
+  {
     "tenMon": "Olong Milk Tea",
     "category": "Milk Tea",
-    "dungLuong": "350ml",
+    "dungLuong": "500ml",
     "hinhAnh": "./Source ảnh món/6. Milk tea/Olong Milk Tea.jpg",
     "nguyenLieu": [
       "🍵 Trà ô long Shika: 150ml",
@@ -625,7 +646,7 @@
   {
     "tenMon": "Oreo Milk Tea",
     "category": "Milk Tea",
-    "dungLuong": "350ml",
+    "dungLuong": "500ml",
     "hinhAnh": "./Source ảnh món/6. Milk tea/Oreo Milk Tea.jpg",
     "nguyenLieu": [
       "🍪 Bánh Oreo: 2 cái",
