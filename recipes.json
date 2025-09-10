@@ -971,6 +971,23 @@
     ]
   },
   {
+    "tenMon": "Mứt trái cây hỗn hợp Shika",
+    "category": "Prepared",
+    "dungLuong": "1000ml",
+    "hinhAnh": "images/ingredient.png",
+    "nguyenLieu": [
+      "Raspberry GoldenFarm: 375ml",
+      "Blue Berry GoldenFarm: 125ml",
+      "BlackBerry GoldenFarm: 250ml",
+      "Chanh Lime Torani: 250ml"
+    ],
+    "congThuc": [
+      "Cho 375ml mứt Raspberry, 125ml mứt Blue Berry, 250ml mứt BlackBerry và 250ml chanh Lime Torani vào ca 1.5L.",
+      "Dùng muỗng khuấy đều hỗn hợp.",
+      "⭐️ Dùng cho 1 ly: 15ml Raspberry + 5ml Blue Berry + 10ml BlackBerry + 10ml Chanh Lime"
+    ]
+  },
+  {
     "tenMon": "Lá Dứa Shika",
     "category": "Prepared",
     "dungLuong": "",
