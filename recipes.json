@@ -992,6 +992,71 @@
     ]
   },
   {
+    "tenMon": "Taro Latte",
+    "category": "Non-Caffein",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/7. Non-caffein/Taro Latte.png",
+    "nguyenLieu": [
+      "🍠 Bột Taro: 30g",
+      "🥛 Sữa Shika: 100ml",
+      "🧂 Milk Foam Muối Shika: 30ml",
+      "🧊 Đá viên: vừa đủ"
+    ],
+    "congThuc": [
+      "Cho 30g bột Taro vào ly đong, rót 30ml nước nóng vào bột Taro sau đó khuấy đều cho tan.",
+      "Thêm 100ml sữa Shika vào ly 350ml",
+      "Thêm đá viên vừa đủ (khoảng 150g).",
+      "Rót nước Taro đã pha vào ly.",
+      "Thêm 30ml milk foam muối Shika lên trên bề mặt Taro latte."
+    ]
+  },
+  {
+    "tenMon": "Matcha Taro",
+    "category": "Matcha",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/5. Matcha/Taro Latte.png",
+    "nguyenLieu": [
+      "🍠 Bột Taro: 20g",
+      "🥛 Sữa Shika: 100ml",
+      "🍵 Bột matcha Shika: 3g",
+      "🧊 Đá viên: vừa đủ"
+    ],
+    "congThuc": [
+      "Cho 20g bột Taro vào ly đong, rót 20ml nước nóng vào bột Taro sau đó khuấy đều cho tan.",
+      "Đánh tan 3g bột matcha Shika với 30ml nước nóng (70–80°C) cho mịn và nổi bọt.",
+      "Rót Taro đã pha vào ly 350ml.",
+      "Thêm đá vào",
+      "Thêm 100ml sữa Shika",
+      "Rót từ từ matcha đã đánh lên trên cùng để tạo lớp màu xanh nổi bật."
+    ]
+  },
+  {
+    "tenMon": "Vanila N Rose",
+    "category": "Milk Tea",
+    "dungLuong": "500ml",
+    "hinhAnh": "./Source ảnh món/6. Milk Tea/Taro Latte.png",
+    "nguyenLieu": [
+      "🍵 Trà ô long Shika: 150ml",
+      "🌺 Mứt hoa hồng: 10ml",
+      "🌹 Siro hoa hồng Monin: 5ml",
+      "🍦 Siro vani Monin: 5ml",
+      "🥛 Sữa Shika: 100ml",
+      "🍦 Kem cream Ice Hot: 25ml",
+      "Sữa đặc ngôi sao: 5 ml",
+      "Thạch củ năng: 20g"
+    ],
+    "congThuc": [
+      "Rót 100ml sữa Shika vào ly.",
+      "Cho 5ml syrup vani Monin vào ly và khuấy đều",
+      "Thêm đá viên vừa đủ vào ly (khoảng 150g).",
+      "Rót tiếp 150ml trà ô long Shika lên trên.",
+      "Đánh 25ml kem cream Ice hot với 5ml sữa đặc ngôi sao, đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn.",
+      "Thêm 10ml mứt hoa hồng và 5ml siro hoa hồng vào hỗn hợp kem cream đã đánh, khuấy nhẹ.",
+      "Thêm lớp kem cream lên trên bề mặt ly.",
+      "Thêm 20g thạch củ năng lên trên để trang trí."
+    ]
+  },
+  {
     "tenMon": "Lá Dứa Shika",
     "category": "Prepared",
     "dungLuong": "",
