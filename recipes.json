@@ -257,6 +257,24 @@
       "Pha 18g cà phê Arabica - H - Medium và rót lên trên lớp sữa dừa."
     ]
   },
+    {
+    "tenMon": "Dark Velvet",
+    "category": "Shika Coffee",
+    "dungLuong": "350ml",
+    "hinhAnh": "./Source ảnh món/2. Shika Coffee/Coconut Cream Cafe.jpg",
+    "nguyenLieu": [
+      "Bột khoai môn: 30g",
+      "🧂 Sữa Shika: 80ml",
+      "☕ Cà phê Arabica - H - Medium: 18g"
+    ],
+    "congThuc": [
+      "Pha 30g bột khoai môn với 30ml nước nóng",
+      "Rót hỗn hợp khoai môn vào ly 350ml",
+      "Cho đá viên vào đầy ly (khoảng 150g).",
+      "Rót 80ml sữa Shika vào ly.",
+      "Pha 18g cà phê Arabica - H - Medium và rót lên trên lớp sữa."
+    ]
+  },
   {
     "tenMon": "Creamy Cloudy",
     "category": "Shika Coffee",
