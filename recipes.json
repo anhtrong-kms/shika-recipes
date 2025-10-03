@@ -628,28 +628,6 @@
     ]
   },
   {
-    "tenMon": "Trà Sữa Vani Hoa Hồng",
-    "category": "Milk Tea",
-    "dungLuong": "500ml",
-    "hinhAnh": "./Source ảnh món/6. Milk tea/Trà Sữa Vani Hoa Hong.jpg",
-    "nguyenLieu": [
-      "🌺 Mứt hoa hồng: 10ml",
-      "🌹 Siro hoa hồng Monin: 5ml",
-      "🍦 Siro vani Monin: 5ml",
-      "🍵 Trà ô long Shika: 150ml",
-      "🧂 Sữa Shika: 80ml",
-      "🔮 Trân châu: 30g"
-    ],
-    "congThuc": [
-      "Cho 10ml mứt hoa hồng, 5ml syrup hoa hồng Monin và 5ml syrup vani Monin vào ly 500ml, khuấy đều.",
-      "Thêm 1 vá trân châu (30g) vào đáy ly.",
-      "Thêm đá viên vào đầy ly (khoảng 150g).",
-      "Rót 80ml sữa Shika vào ly.",
-      "Rót tiếp 150ml trà ô long Shika lên trên.",
-      "Khuấy nhẹ trước khi thưởng thức."
-    ]
-  },
-  {
     "tenMon": "Olong Milk Tea",
     "category": "Milk Tea",
     "dungLuong": "500ml",
@@ -1049,7 +1027,7 @@
     ]
   },
   {
-    "tenMon": "Vanila N Rose",
+    "tenMon": "Vanilla Rose",
     "category": "Milk Tea",
     "dungLuong": "500ml",
     "hinhAnh": "./Source ảnh món/6. Milk Tea/Taro Latte.png",
@@ -1061,15 +1039,15 @@
       "🥛 Sữa Shika: 100ml",
       "🍦 Kem cream Ice Hot: 25ml",
       "Sữa đặc ngôi sao: 5 ml",
-      "Thạch củ năng: 20g"
+      "Thạch củ năng: 20g",
+      "Bột đá xay: 2g"
     ],
     "congThuc": [
-      "Rót 100ml sữa Shika vào ly.",
-      "Cho 5ml syrup vani Monin vào ly và khuấy đều",
+      "Đánh 25ml kem cream Ice hot với 5ml sữa đặc ngôi sao, Thêm 10ml mứt hoa hồng và 5ml siro hoa hồng, 2g bột ffas đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn.",
+      " vào hỗn hợp kem cream đã đánh, khuấy nhẹ.",
+      "Cho 5ml syrup vani Monin vào ly 500ml và khuấy đều",
       "Thêm đá viên vừa đủ vào ly (khoảng 150g).",
       "Rót tiếp 150ml trà ô long Shika lên trên.",
-      "Đánh 25ml kem cream Ice hot với 5ml sữa đặc ngôi sao, đánh cho đến khi hỗn hợp bông mịn và có độ sệt mong muốn.",
-      "Thêm 10ml mứt hoa hồng và 5ml siro hoa hồng vào hỗn hợp kem cream đã đánh, khuấy nhẹ.",
       "Thêm lớp kem cream lên trên bề mặt ly.",
       "Thêm 20g thạch củ năng lên trên để trang trí."
     ]
